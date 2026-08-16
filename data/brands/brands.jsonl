@@ -1,0 +1,1243 @@
+{"id": "2crsi", "name": "2CRSi", "categories": ["servers"]}
+{"id": "2n", "name": "2N", "categories": ["network"]}
+{"id": "3com", "name": "3Com", "categories": ["network"]}
+{"id": "3m", "name": "3M", "categories": ["infrastructure_ups"]}
+{"id": "3onedata", "name": "3onedata", "categories": ["network"]}
+{"id": "3xs", "name": "3XS", "categories": ["servers"]}
+{"id": "45drives", "name": "45Drives", "categories": ["servers"]}
+{"id": "7thsense", "name": "7thSense", "categories": ["audio_proav"]}
+{"id": "a10-networks", "name": "A10 Networks", "categories": ["network"]}
+{"id": "aastra", "name": "Aastra", "categories": ["network"]}
+{"id": "abb", "name": "ABB", "categories": ["infrastructure_ups"]}
+{"id": "ablecom", "name": "Ablecom", "categories": ["infrastructure_ups"]}
+{"id": "ablerex", "name": "Ablerex", "categories": ["infrastructure_ups"]}
+{"id": "accton", "name": "Accton", "categories": ["network"]}
+{"id": "accuride", "name": "Accuride", "categories": ["infrastructure_ups"]}
+{"id": "acer", "name": "Acer", "categories": ["servers"]}
+{"id": "acnodes", "name": "Acnodes", "categories": ["infrastructure_ups"]}
+{"id": "actelis-networks", "name": "Actelis Networks", "categories": ["network"]}
+{"id": "active-power", "name": "Active Power", "categories": ["infrastructure_ups"]}
+{"id": "adam-hall", "name": "Adam Hall", "categories": ["infrastructure_ups"]}
+{"id": "adastra", "name": "Adastra", "categories": ["audio_proav"]}
+{"id": "adc", "name": "ADC", "categories": ["infrastructure_ups"]}
+{"id": "adc-telecommunications", "name": "ADC Telecommunications", "categories": ["network"]}
+{"id": "adder", "name": "Adder", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "adj", "name": "ADJ", "categories": ["audio_proav"]}
+{"id": "adlink", "name": "ADLINK", "categories": ["servers"]}
+{"id": "adtechno", "name": "ADTECHNO", "categories": ["audio_proav"]}
+{"id": "adtran", "name": "Adtran", "categories": ["network"]}
+{"id": "adva", "name": "ADVA", "categories": ["network"]}
+{"id": "advanced-hpc", "name": "Advanced HPC", "categories": ["servers"]}
+{"id": "advantech", "name": "Advantech", "categories": ["network", "servers"]}
+{"id": "aeg-power-solutions", "name": "AEG Power Solutions", "categories": ["infrastructure_ups"]}
+{"id": "aeq", "name": "AEQ", "categories": ["audio_proav"]}
+{"id": "aerohive", "name": "Aerohive", "categories": ["network"]}
+{"id": "aewin", "name": "AEWIN", "categories": ["network"]}
+{"id": "afco-systems", "name": "AFCO Systems", "categories": ["infrastructure_ups"]}
+{"id": "afl", "name": "AFL", "categories": ["infrastructure_ups"]}
+{"id": "agfeo", "name": "AGFEO", "categories": ["network"]}
+{"id": "aic", "name": "AIC", "categories": ["infrastructure_ups", "servers"]}
+{"id": "airedale", "name": "Airedale", "categories": ["infrastructure_ups"]}
+{"id": "airespace", "name": "Airespace", "categories": ["network"]}
+{"id": "airspan", "name": "Airspan", "categories": ["network"]}
+{"id": "airsys", "name": "Airsys", "categories": ["infrastructure_ups"]}
+{"id": "aivres", "name": "Aivres", "categories": ["servers"]}
+{"id": "aja-video-systems", "name": "AJA Video Systems", "categories": ["audio_proav"]}
+{"id": "akcp", "name": "AKCP", "categories": ["infrastructure_ups"]}
+{"id": "akg", "name": "AKG", "categories": ["audio_proav"]}
+{"id": "alaxala-networks", "name": "Alaxala Networks", "categories": ["network"]}
+{"id": "alcatel-lucent", "name": "Alcatel-Lucent", "categories": ["network"]}
+{"id": "alcatel-lucent-enterprise", "name": "Alcatel-Lucent Enterprise", "categories": ["network"]}
+{"id": "alcons-audio", "name": "Alcons Audio", "categories": ["audio_proav"]}
+{"id": "alesis", "name": "Alesis", "categories": ["audio_proav"]}
+{"id": "alfatron", "name": "Alfatron", "categories": ["audio_proav"]}
+{"id": "allen-heath", "name": "Allen & Heath", "categories": ["audio_proav"]}
+{"id": "allied-telesis", "name": "Allied Telesis", "categories": ["network"]}
+{"id": "allnet", "name": "ALLNET", "categories": ["network"]}
+{"id": "allot", "name": "Allot", "categories": ["network"]}
+{"id": "alpha-networks", "name": "Alpha Networks", "categories": ["network"]}
+{"id": "alpha-technologies", "name": "Alpha Technologies", "categories": ["infrastructure_ups"]}
+{"id": "alteon-websystems", "name": "Alteon WebSystems", "categories": ["network"]}
+{"id": "alto-professional", "name": "Alto Professional", "categories": ["audio_proav"]}
+{"id": "alvarion", "name": "Alvarion", "categories": ["network"]}
+{"id": "amax", "name": "AMAX", "categories": ["servers"]}
+{"id": "ambedded", "name": "Ambedded", "categories": ["servers"]}
+{"id": "amco-enclosures", "name": "Amco Enclosures", "categories": ["infrastructure_ups"]}
+{"id": "amdahl", "name": "Amdahl", "categories": ["servers"]}
+{"id": "amptown-cases", "name": "Amptown Cases", "categories": ["infrastructure_ups"]}
+{"id": "amx", "name": "AMX", "categories": ["audio_proav"]}
+{"id": "anacapa-micro", "name": "Anacapa Micro", "categories": ["servers"]}
+{"id": "analog-way", "name": "Analog Way", "categories": ["audio_proav"]}
+{"id": "angry-audio", "name": "Angry Audio", "categories": ["audio_proav"]}
+{"id": "anord-mardix", "name": "Anord Mardix", "categories": ["infrastructure_ups"]}
+{"id": "anritsu", "name": "Anritsu", "categories": ["network"]}
+{"id": "antaira", "name": "Antaira", "categories": ["network"]}
+{"id": "antelope-audio", "name": "Antelope Audio", "categories": ["audio_proav"]}
+{"id": "anvil-cases", "name": "Anvil Cases", "categories": ["infrastructure_ups"]}
+{"id": "apantac", "name": "Apantac", "categories": ["audio_proav"]}
+{"id": "apart", "name": "APart", "categories": ["audio_proav"]}
+{"id": "apc", "name": "APC", "categories": ["infrastructure_ups"], "parent": "schneider-electric"}
+{"id": "apcon", "name": "APCON", "categories": ["network"]}
+{"id": "aphex", "name": "Aphex", "categories": ["audio_proav"]}
+{"id": "api", "name": "API", "categories": ["audio_proav"]}
+{"id": "apogee", "name": "Apogee", "categories": ["audio_proav"]}
+{"id": "apple", "name": "Apple", "categories": ["servers"]}
+{"id": "appsys-proaudio", "name": "Appsys ProAudio", "categories": ["audio_proav"]}
+{"id": "apra", "name": "APRA", "categories": ["infrastructure_ups"]}
+{"id": "apresia-systems", "name": "Apresia Systems", "categories": ["network"]}
+{"id": "apw", "name": "APW", "categories": ["infrastructure_ups"]}
+{"id": "aquarius", "name": "Aquarius", "categories": ["servers"]}
+{"id": "araknis-networks", "name": "Araknis Networks", "categories": ["network"]}
+{"id": "arbor-networks", "name": "Arbor Networks", "categories": ["network"]}
+{"id": "areca", "name": "Areca", "categories": ["servers"]}
+{"id": "arista-networks", "name": "Arista Networks", "categories": ["network"]}
+{"id": "aros", "name": "AROS", "categories": ["infrastructure_ups"]}
+{"id": "array-networks", "name": "Array Networks", "categories": ["network"]}
+{"id": "arris", "name": "Arris", "categories": ["network"]}
+{"id": "art", "name": "ART", "categories": ["audio_proav"]}
+{"id": "artistic-licence", "name": "Artistic Licence", "categories": ["audio_proav"]}
+{"id": "aruba", "name": "Aruba", "categories": ["network"], "parent": "hpe"}
+{"id": "arx", "name": "ARX", "categories": ["audio_proav"]}
+{"id": "asante", "name": "Asante", "categories": ["network"]}
+{"id": "ascend-communications", "name": "Ascend Communications", "categories": ["network"]}
+{"id": "asco", "name": "ASCO", "categories": ["infrastructure_ups"]}
+{"id": "asetek", "name": "Asetek", "categories": ["infrastructure_ups"]}
+{"id": "ashly-audio", "name": "Ashly Audio", "categories": ["audio_proav"]}
+{"id": "asl-intercom", "name": "ASL Intercom", "categories": ["audio_proav"]}
+{"id": "aspen-systems", "name": "Aspen Systems", "categories": ["servers"]}
+{"id": "asrock-rack", "name": "ASRock Rack", "categories": ["servers"]}
+{"id": "assmann", "name": "Assmann", "categories": ["infrastructure_ups"]}
+{"id": "asterfusion", "name": "Asterfusion", "categories": ["network"]}
+{"id": "asus", "name": "ASUS", "categories": ["network", "servers"]}
+{"id": "asustor", "name": "ASUSTOR", "categories": ["servers"]}
+{"id": "aten", "name": "ATEN", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "athena-power", "name": "Athena Power", "categories": ["infrastructure_ups", "servers"]}
+{"id": "ati-audio", "name": "ATI Audio", "categories": ["audio_proav"]}
+{"id": "atlasied", "name": "AtlasIED", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "atlona", "name": "Atlona", "categories": ["audio_proav"]}
+{"id": "attero-tech", "name": "Attero Tech", "categories": ["audio_proav"]}
+{"id": "atx-networks", "name": "ATX Networks", "categories": ["network"]}
+{"id": "audac", "name": "AUDAC", "categories": ["audio_proav"]}
+{"id": "audient", "name": "Audient", "categories": ["audio_proav"]}
+{"id": "audio-ltd", "name": "Audio Ltd", "categories": ["audio_proav"]}
+{"id": "audio-technica", "name": "Audio-Technica", "categories": ["audio_proav"]}
+{"id": "audiocodes", "name": "AudioCodes", "categories": ["network"]}
+{"id": "audiopressbox", "name": "AudioPressBox", "categories": ["audio_proav"]}
+{"id": "audix", "name": "Audix", "categories": ["audio_proav"]}
+{"id": "auerswald", "name": "Auerswald", "categories": ["network"]}
+{"id": "aurora-audio", "name": "Aurora Audio", "categories": ["audio_proav"]}
+{"id": "aurora-multimedia", "name": "Aurora Multimedia", "categories": ["audio_proav"]}
+{"id": "austin-hughes", "name": "Austin Hughes", "categories": ["infrastructure_ups"]}
+{"id": "australian-monitor", "name": "Australian Monitor", "categories": ["audio_proav"]}
+{"id": "auvitran", "name": "AuviTran", "categories": ["audio_proav"]}
+{"id": "av-stumpfl", "name": "AV Stumpfl", "categories": ["audio_proav"]}
+{"id": "avalon-design", "name": "Avalon Design", "categories": ["audio_proav"]}
+{"id": "avaya", "name": "Avaya", "categories": ["network"]}
+{"id": "avenview", "name": "Avenview", "categories": ["audio_proav"]}
+{"id": "aviat-networks", "name": "Aviat Networks", "categories": ["network"]}
+{"id": "avid", "name": "Avid", "categories": ["audio_proav"]}
+{"id": "aviom", "name": "Aviom", "categories": ["audio_proav"]}
+{"id": "avitech", "name": "Avitech", "categories": ["audio_proav"]}
+{"id": "avm", "name": "AVM", "categories": ["network"]}
+{"id": "avmatrix", "name": "AVMATRIX", "categories": ["audio_proav"]}
+{"id": "avocent", "name": "Avocent", "categories": ["infrastructure_ups"], "parent": "vertiv"}
+{"id": "avolites", "name": "Avolites", "categories": ["audio_proav"]}
+{"id": "avp", "name": "AVP", "categories": ["audio_proav"]}
+{"id": "avpro-edge", "name": "AVPro Edge", "categories": ["audio_proav"]}
+{"id": "avtech", "name": "AVTECH", "categories": ["infrastructure_ups"]}
+{"id": "axia-audio", "name": "Axia Audio", "categories": ["audio_proav"]}
+{"id": "axiomtek", "name": "Axiomtek", "categories": ["network", "servers"]}
+{"id": "axis-communications", "name": "Axis Communications", "categories": ["network"]}
+{"id": "axon", "name": "Axon", "categories": ["audio_proav"]}
+{"id": "bachmann", "name": "Bachmann", "categories": ["infrastructure_ups"]}
+{"id": "bae-audio", "name": "BAE Audio", "categories": ["audio_proav"]}
+{"id": "baicells", "name": "Baicells", "categories": ["network"]}
+{"id": "barco", "name": "Barco", "categories": ["audio_proav"]}
+{"id": "barnfind", "name": "BarnFind", "categories": ["audio_proav"]}
+{"id": "barox", "name": "barox", "categories": ["network"]}
+{"id": "barracuda", "name": "Barracuda", "categories": ["network"]}
+{"id": "batm", "name": "BATM", "categories": ["network"]}
+{"id": "bay-networks", "name": "Bay Networks", "categories": ["network"]}
+{"id": "baytech", "name": "BayTech", "categories": ["infrastructure_ups"]}
+{"id": "bdcom", "name": "BDCOM", "categories": ["network"]}
+{"id": "bechtle", "name": "Bechtle", "categories": ["servers"]}
+{"id": "behringer", "name": "Behringer", "categories": ["audio_proav"]}
+{"id": "belden", "name": "Belden", "categories": ["infrastructure_ups", "network"]}
+{"id": "belkin", "name": "Belkin", "categories": ["infrastructure_ups", "network"]}
+{"id": "bellari", "name": "Bellari", "categories": ["audio_proav"]}
+{"id": "benning", "name": "Benning", "categories": ["infrastructure_ups"]}
+{"id": "beronet", "name": "beroNet", "categories": ["network"]}
+{"id": "best-power", "name": "Best Power", "categories": ["infrastructure_ups"]}
+{"id": "bettermaker", "name": "Bettermaker", "categories": ["audio_proav"]}
+{"id": "beyerdynamic", "name": "beyerdynamic", "categories": ["audio_proav"]}
+{"id": "bgw", "name": "BGW", "categories": ["audio_proav"]}
+{"id": "biamp", "name": "Biamp", "categories": ["audio_proav"]}
+{"id": "big-switch-networks", "name": "Big Switch Networks", "categories": ["network"]}
+{"id": "billion-electric", "name": "Billion Electric", "categories": ["network"]}
+{"id": "bintec-elmeg", "name": "bintec elmeg", "categories": ["network"]}
+{"id": "birddog", "name": "BirdDog", "categories": ["audio_proav"]}
+{"id": "bittree", "name": "Bittree", "categories": ["audio_proav"]}
+{"id": "bkt-elektronik", "name": "BKT Elektronik", "categories": ["infrastructure_ups"]}
+{"id": "black-box", "name": "Black Box", "categories": ["audio_proav", "infrastructure_ups", "network"]}
+{"id": "black-lion-audio", "name": "Black Lion Audio", "categories": ["audio_proav"]}
+{"id": "blackmagic-design", "name": "Blackmagic Design", "categories": ["audio_proav"]}
+{"id": "blade-network-technologies", "name": "Blade Network Technologies", "categories": ["network"]}
+{"id": "blonder-tongue", "name": "Blonder Tongue", "categories": ["audio_proav"]}
+{"id": "blue-coat", "name": "Blue Coat", "categories": ["network"]}
+{"id": "blustream", "name": "Blustream", "categories": ["audio_proav"]}
+{"id": "bogen", "name": "Bogen", "categories": ["audio_proav"]}
+{"id": "borri", "name": "Borri", "categories": ["infrastructure_ups"]}
+{"id": "bosch", "name": "Bosch", "categories": ["audio_proav"]}
+{"id": "bose-professional", "name": "Bose Professional", "categories": ["audio_proav"]}
+{"id": "boston-limited", "name": "Boston Limited", "categories": ["servers"]}
+{"id": "botex", "name": "Botex", "categories": ["audio_proav"]}
+{"id": "boyd", "name": "Boyd", "categories": ["infrastructure_ups"]}
+{"id": "brainstorm-electronics", "name": "Brainstorm Electronics", "categories": ["audio_proav"]}
+{"id": "brand-rex", "name": "Brand-Rex", "categories": ["infrastructure_ups"]}
+{"id": "bricasti-design", "name": "Bricasti Design", "categories": ["audio_proav"]}
+{"id": "broadberry", "name": "Broadberry", "categories": ["servers"]}
+{"id": "brocade", "name": "Brocade", "categories": ["network"]}
+{"id": "brompton-technology", "name": "Brompton Technology", "categories": ["audio_proav"]}
+{"id": "bss-audio", "name": "BSS Audio", "categories": ["audio_proav"]}
+{"id": "bud-industries", "name": "Bud Industries", "categories": ["infrastructure_ups"]}
+{"id": "buffalo", "name": "Buffalo", "categories": ["network", "servers"]}
+{"id": "bulat", "name": "Bulat", "categories": ["network"]}
+{"id": "bull", "name": "Bull", "categories": ["servers"]}
+{"id": "burl-audio", "name": "Burl Audio", "categories": ["audio_proav"]}
+{"id": "buzz-audio", "name": "Buzz Audio", "categories": ["audio_proav"]}
+{"id": "bzbgear", "name": "BZBGEAR", "categories": ["audio_proav"]}
+{"id": "c-d-technologies", "name": "C&D Technologies", "categories": ["infrastructure_ups"]}
+{"id": "c-data", "name": "C-Data", "categories": ["network"]}
+{"id": "cabeus", "name": "Cabeus", "categories": ["infrastructure_ups"]}
+{"id": "cabletron-systems", "name": "Cabletron Systems", "categories": ["network"]}
+{"id": "calix", "name": "Calix", "categories": ["network"]}
+{"id": "calrec", "name": "Calrec", "categories": ["audio_proav"]}
+{"id": "calzone-case", "name": "Calzone Case", "categories": ["infrastructure_ups"]}
+{"id": "cambium-networks", "name": "Cambium Networks", "categories": ["network"]}
+{"id": "camco", "name": "Camco", "categories": ["audio_proav"]}
+{"id": "canford", "name": "Canford", "categories": ["infrastructure_ups"]}
+{"id": "cannon-technologies", "name": "Cannon Technologies", "categories": ["infrastructure_ups"]}
+{"id": "canovate", "name": "Canovate", "categories": ["infrastructure_ups"]}
+{"id": "carrier", "name": "Carrier", "categories": ["infrastructure_ups"]}
+{"id": "casa-systems", "name": "Casa Systems", "categories": ["network"]}
+{"id": "ce-labs", "name": "CE Labs", "categories": ["audio_proav"]}
+{"id": "ce-t-power", "name": "CE+T Power", "categories": ["infrastructure_ups"]}
+{"id": "cedar-audio", "name": "CEDAR Audio", "categories": ["audio_proav"]}
+{"id": "celestica", "name": "Celestica", "categories": ["network", "servers"]}
+{"id": "centec-networks", "name": "Centec Networks", "categories": ["network"]}
+{"id": "centiel", "name": "Centiel", "categories": ["infrastructure_ups"]}
+{"id": "ceragon", "name": "Ceragon", "categories": ["network"]}
+{"id": "cerio", "name": "Cerio", "categories": ["network"]}
+{"id": "chamsys", "name": "ChamSys", "categories": ["audio_proav"]}
+{"id": "chandler-limited", "name": "Chandler Limited", "categories": ["audio_proav"]}
+{"id": "chassis-plans", "name": "Chassis Plans", "categories": ["servers"]}
+{"id": "chatsworth-products", "name": "Chatsworth Products", "categories": ["infrastructure_ups"]}
+{"id": "chauvet-professional", "name": "Chauvet Professional", "categories": ["audio_proav"]}
+{"id": "check-point", "name": "Check Point", "categories": ["network"]}
+{"id": "chenbro", "name": "Chenbro", "categories": ["infrastructure_ups", "servers"]}
+{"id": "chevin-research", "name": "Chevin Research", "categories": ["audio_proav"]}
+{"id": "chiayo", "name": "Chiayo", "categories": ["audio_proav"]}
+{"id": "chieftec", "name": "Chieftec", "categories": ["infrastructure_ups"]}
+{"id": "chilldyne", "name": "Chilldyne", "categories": ["infrastructure_ups"]}
+{"id": "chloride", "name": "Chloride", "categories": ["infrastructure_ups"], "parent": "vertiv"}
+{"id": "christie", "name": "Christie", "categories": ["audio_proav"]}
+{"id": "chyron", "name": "Chyron", "categories": ["audio_proav"]}
+{"id": "ciena", "name": "Ciena", "categories": ["network"]}
+{"id": "cisco", "name": "Cisco", "categories": ["audio_proav", "network", "servers"]}
+{"id": "citrix", "name": "Citrix", "categories": ["network"]}
+{"id": "citronic", "name": "Citronic", "categories": ["audio_proav"]}
+{"id": "city-theatrical", "name": "City Theatrical", "categories": ["audio_proav"]}
+{"id": "clavister", "name": "Clavister", "categories": ["network"]}
+{"id": "clear-com", "name": "Clear-Com", "categories": ["audio_proav"]}
+{"id": "clearfield", "name": "Clearfield", "categories": ["infrastructure_ups"]}
+{"id": "clearone", "name": "ClearOne", "categories": ["audio_proav"]}
+{"id": "cloud-electronics", "name": "Cloud Electronics", "categories": ["audio_proav"]}
+{"id": "cloudian", "name": "Cloudian", "categories": ["servers"]}
+{"id": "cnet", "name": "CNet", "categories": ["network"]}
+{"id": "cobalt-digital", "name": "Cobalt Digital", "categories": ["audio_proav"]}
+{"id": "coda-audio", "name": "Coda Audio", "categories": ["audio_proav"]}
+{"id": "cohesity", "name": "Cohesity", "categories": ["servers"]}
+{"id": "coleman-audio", "name": "Coleman Audio", "categories": ["audio_proav"]}
+{"id": "colfax", "name": "Colfax", "categories": ["servers"]}
+{"id": "colorlight", "name": "Colorlight", "categories": ["audio_proav"]}
+{"id": "comfast", "name": "COMFAST", "categories": ["network"]}
+{"id": "commscope", "name": "CommScope", "categories": ["infrastructure_ups", "network"]}
+{"id": "comnet", "name": "ComNet", "categories": ["network"]}
+{"id": "compal", "name": "Compal", "categories": ["servers"]}
+{"id": "compaq", "name": "Compaq", "categories": ["servers"]}
+{"id": "comrex", "name": "Comrex", "categories": ["audio_proav"]}
+{"id": "comtech", "name": "Comtech", "categories": ["network"]}
+{"id": "connectpro", "name": "ConnectPRO", "categories": ["infrastructure_ups"]}
+{"id": "consul-neowatt", "name": "Consul Neowatt", "categories": ["infrastructure_ups"]}
+{"id": "contec", "name": "Contec", "categories": ["network"]}
+{"id": "conteg", "name": "Conteg", "categories": ["infrastructure_ups"]}
+{"id": "contemporary-research", "name": "Contemporary Research", "categories": ["audio_proav"]}
+{"id": "controlled-power-company", "name": "Controlled Power Company", "categories": ["infrastructure_ups"]}
+{"id": "coolcentric", "name": "Coolcentric", "categories": ["infrastructure_ups"]}
+{"id": "coolit-systems", "name": "CoolIT Systems", "categories": ["infrastructure_ups"]}
+{"id": "cooper-b-line", "name": "Cooper B-Line", "categories": ["infrastructure_ups"]}
+{"id": "core-systems", "name": "Core Systems", "categories": ["servers"]}
+{"id": "corega", "name": "Corega", "categories": ["network"]}
+{"id": "corero", "name": "Corero", "categories": ["network"]}
+{"id": "coriant", "name": "Coriant", "categories": ["network"]}
+{"id": "corning", "name": "Corning", "categories": ["infrastructure_ups", "network"]}
+{"id": "corsa-technology", "name": "Corsa Technology", "categories": ["network"]}
+{"id": "coyote-point-systems", "name": "Coyote Point Systems", "categories": ["network"]}
+{"id": "cpacket-networks", "name": "cPacket Networks", "categories": ["network"]}
+{"id": "cradlepoint", "name": "Cradlepoint", "categories": ["network"]}
+{"id": "cranborne-audio", "name": "Cranborne Audio", "categories": ["audio_proav"]}
+{"id": "crane-song", "name": "Crane Song", "categories": ["audio_proav"]}
+{"id": "cray", "name": "Cray", "categories": ["servers"]}
+{"id": "crenlo", "name": "Crenlo", "categories": ["infrastructure_ups"]}
+{"id": "crest-audio", "name": "Crest Audio", "categories": ["audio_proav"]}
+{"id": "crestron", "name": "Crestron", "categories": ["audio_proav"]}
+{"id": "crookwood", "name": "Crookwood", "categories": ["audio_proav"]}
+{"id": "crossbeam-systems", "name": "Crossbeam Systems", "categories": ["network"]}
+{"id": "crown", "name": "Crown", "categories": ["audio_proav"]}
+{"id": "crystal-group", "name": "Crystal Group", "categories": ["servers"]}
+{"id": "csb-battery", "name": "CSB Battery", "categories": ["infrastructure_ups"]}
+{"id": "ctc-union", "name": "CTC Union", "categories": ["network"]}
+{"id": "cubro", "name": "Cubro", "categories": ["network"]}
+{"id": "cudy", "name": "Cudy", "categories": ["network"]}
+{"id": "cyber-switching", "name": "Cyber Switching", "categories": ["infrastructure_ups"]}
+{"id": "cyberex", "name": "Cyberex", "categories": ["infrastructure_ups"]}
+{"id": "cyberoam", "name": "Cyberoam", "categories": ["network"]}
+{"id": "cyberpower", "name": "CyberPower", "categories": ["infrastructure_ups"]}
+{"id": "cyberview", "name": "CyberView", "categories": ["infrastructure_ups"]}
+{"id": "cybex", "name": "Cybex", "categories": ["infrastructure_ups"], "parent": "vertiv"}
+{"id": "cyclades", "name": "Cyclades", "categories": ["infrastructure_ups"]}
+{"id": "d-b-audiotechnik", "name": "d&b audiotechnik", "categories": ["audio_proav"]}
+{"id": "d-link", "name": "D-Link", "categories": ["infrastructure_ups", "network"]}
+{"id": "dahua", "name": "Dahua", "categories": ["network"]}
+{"id": "daikin", "name": "Daikin", "categories": ["infrastructure_ups"]}
+{"id": "damac", "name": "Damac", "categories": ["infrastructure_ups"]}
+{"id": "dangerous-music", "name": "Dangerous Music", "categories": ["audio_proav"]}
+{"id": "dap-audio", "name": "DAP Audio", "categories": ["audio_proav"]}
+{"id": "das-audio", "name": "DAS Audio", "categories": ["audio_proav"]}
+{"id": "dasan-networks", "name": "DASAN Networks", "categories": ["network"]}
+{"id": "data-aire", "name": "Data Aire", "categories": ["infrastructure_ups"]}
+{"id": "data-general", "name": "Data General", "categories": ["servers"]}
+{"id": "datacom", "name": "Datacom", "categories": ["network"]}
+{"id": "datacom-systems", "name": "Datacom Systems", "categories": ["network"]}
+{"id": "datadirect-networks", "name": "DataDirect Networks", "categories": ["servers"]}
+{"id": "datang-telecom", "name": "Datang Telecom", "categories": ["network"]}
+{"id": "datapath", "name": "Datapath", "categories": ["audio_proav"]}
+{"id": "dataprobe", "name": "Dataprobe", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "datasat", "name": "Datasat", "categories": ["audio_proav"]}
+{"id": "dataton", "name": "Dataton", "categories": ["audio_proav"]}
+{"id": "datavideo", "name": "Datavideo", "categories": ["audio_proav"]}
+{"id": "datwyler", "name": "Dätwyler", "categories": ["infrastructure_ups"]}
+{"id": "dbtechnologies", "name": "dBTechnologies", "categories": ["audio_proav"]}
+{"id": "dbx", "name": "dbx", "categories": ["audio_proav"]}
+{"id": "dec", "name": "DEC", "categories": ["servers"]}
+{"id": "decimator-design", "name": "Decimator Design", "categories": ["audio_proav"]}
+{"id": "deciso", "name": "Deciso", "categories": ["network"]}
+{"id": "dell-emc", "name": "Dell EMC", "categories": ["network", "servers"], "parent": "dell-technologies"}
+{"id": "dell-technologies", "name": "Dell Technologies", "categories": ["network", "servers"]}
+{"id": "delock", "name": "Delock", "categories": ["infrastructure_ups", "network"]}
+{"id": "delta-electronics", "name": "Delta Electronics", "categories": ["infrastructure_ups"]}
+{"id": "delta-networks", "name": "Delta Networks", "categories": ["network"]}
+{"id": "denon-professional", "name": "Denon Professional", "categories": ["audio_proav"]}
+{"id": "depo-computers", "name": "DEPO Computers", "categories": ["servers"]}
+{"id": "dhd-audio", "name": "DHD audio", "categories": ["audio_proav"]}
+{"id": "dialogic", "name": "Dialogic", "categories": ["network"]}
+{"id": "didactum", "name": "Didactum", "categories": ["infrastructure_ups"]}
+{"id": "digi-international", "name": "Digi International", "categories": ["infrastructure_ups", "network"]}
+{"id": "digico", "name": "DiGiCo", "categories": ["audio_proav"]}
+{"id": "digidesign", "name": "Digidesign", "categories": ["audio_proav"]}
+{"id": "digigram", "name": "Digigram", "categories": ["audio_proav"]}
+{"id": "digital-audio-denmark", "name": "Digital Audio Denmark", "categories": ["audio_proav"]}
+{"id": "digital-forecast", "name": "Digital Forecast", "categories": ["audio_proav"]}
+{"id": "digitech", "name": "DigiTech", "categories": ["audio_proav"]}
+{"id": "digitus", "name": "Digitus", "categories": ["infrastructure_ups", "network"]}
+{"id": "digium", "name": "Digium", "categories": ["network"]}
+{"id": "directout", "name": "DirectOut", "categories": ["audio_proav"]}
+{"id": "disguise", "name": "disguise", "categories": ["audio_proav"]}
+{"id": "dolby", "name": "Dolby", "categories": ["audio_proav"]}
+{"id": "dot-hill", "name": "Dot Hill", "categories": ["servers"]}
+{"id": "doug-fleenor-design", "name": "Doug Fleenor Design", "categories": ["audio_proav"]}
+{"id": "dptech", "name": "DPtech", "categories": ["network"]}
+{"id": "dragonwave", "name": "DragonWave", "categories": ["network"]}
+{"id": "drawmer", "name": "Drawmer", "categories": ["audio_proav"]}
+{"id": "draytek", "name": "DrayTek", "categories": ["network"]}
+{"id": "dvigear", "name": "DVIGear", "categories": ["audio_proav"]}
+{"id": "dynacord", "name": "Dynacord", "categories": ["audio_proav"]}
+{"id": "dynamix", "name": "Dynamix", "categories": ["infrastructure_ups"]}
+{"id": "dzs", "name": "DZS", "categories": ["network"]}
+{"id": "eaton", "name": "Eaton", "categories": ["infrastructure_ups", "network"]}
+{"id": "eaw", "name": "EAW", "categories": ["audio_proav"]}
+{"id": "eci-telecom", "name": "ECI Telecom", "categories": ["network"]}
+{"id": "ecler", "name": "Ecler", "categories": ["audio_proav"]}
+{"id": "edgecore-networks", "name": "Edgecore Networks", "categories": ["network"]}
+{"id": "edimax", "name": "Edimax", "categories": ["network"]}
+{"id": "efb-elektronik", "name": "EFB Elektronik", "categories": ["infrastructure_ups"]}
+{"id": "effekta", "name": "Effekta", "categories": ["infrastructure_ups"]}
+{"id": "efirack", "name": "Efirack", "categories": ["infrastructure_ups"]}
+{"id": "egenera", "name": "Egenera", "categories": ["servers"]}
+{"id": "ekinops", "name": "Ekinops", "categories": ["network"]}
+{"id": "elation", "name": "Elation", "categories": ["audio_proav"]}
+{"id": "eldon", "name": "Eldon", "categories": ["infrastructure_ups"]}
+{"id": "elecom", "name": "Elecom", "categories": ["network"]}
+{"id": "electro-voice", "name": "Electro-Voice", "categories": ["audio_proav"]}
+{"id": "elma", "name": "Elma", "categories": ["infrastructure_ups"]}
+{"id": "eltek", "name": "Eltek", "categories": ["infrastructure_ups"]}
+{"id": "eltex", "name": "Eltex", "categories": ["network"]}
+{"id": "elysia", "name": "elysia", "categories": ["audio_proav"]}
+{"id": "emerson-network-power", "name": "Emerson Network Power", "categories": ["infrastructure_ups"]}
+{"id": "empirical-labs", "name": "Empirical Labs", "categories": ["audio_proav"]}
+{"id": "enconnex", "name": "Enconnex", "categories": ["infrastructure_ups"]}
+{"id": "endace", "name": "Endace", "categories": ["network"]}
+{"id": "endian", "name": "Endian", "categories": ["network"]}
+{"id": "endrun-technologies", "name": "EndRun Technologies", "categories": ["network"]}
+{"id": "enersys", "name": "EnerSys", "categories": ["infrastructure_ups"]}
+{"id": "engenius", "name": "EnGenius", "categories": ["network"]}
+{"id": "enlogic", "name": "Enlogic", "categories": ["infrastructure_ups"]}
+{"id": "ensemble-designs", "name": "Ensemble Designs", "categories": ["audio_proav"]}
+{"id": "ensoniq", "name": "Ensoniq", "categories": ["audio_proav"]}
+{"id": "enterasys", "name": "Enterasys", "categories": ["network"]}
+{"id": "enttec", "name": "ENTTEC", "categories": ["audio_proav"]}
+{"id": "envicool", "name": "Envicool", "categories": ["infrastructure_ups"]}
+{"id": "epiphan", "name": "Epiphan", "categories": ["audio_proav"]}
+{"id": "equus-compute-solutions", "name": "Equus Compute Solutions", "categories": ["servers"]}
+{"id": "ericsson", "name": "Ericsson", "categories": ["network"]}
+{"id": "ese", "name": "ESE", "categories": ["audio_proav"]}
+{"id": "esi", "name": "ESI", "categories": ["audio_proav"]}
+{"id": "etc", "name": "ETC", "categories": ["audio_proav"]}
+{"id": "euro-diesel", "name": "Euro-Diesel", "categories": ["infrastructure_ups"]}
+{"id": "eurolite", "name": "Eurolite", "categories": ["audio_proav"]}
+{"id": "eventide", "name": "Eventide", "categories": ["audio_proav"]}
+{"id": "evertz", "name": "Evertz", "categories": ["audio_proav"]}
+{"id": "eviden", "name": "Eviden", "categories": ["servers"]}
+{"id": "evs", "name": "EVS", "categories": ["audio_proav"]}
+{"id": "exablaze", "name": "Exablaze", "categories": ["network"]}
+{"id": "exagrid", "name": "ExaGrid", "categories": ["servers"]}
+{"id": "excel-networking", "name": "Excel Networking", "categories": ["infrastructure_ups"]}
+{"id": "exfo", "name": "EXFO", "categories": ["network"]}
+{"id": "exide", "name": "Exide", "categories": ["infrastructure_ups"]}
+{"id": "exinda", "name": "Exinda", "categories": ["network"]}
+{"id": "exone", "name": "exone", "categories": ["servers"]}
+{"id": "expand-networks", "name": "Expand Networks", "categories": ["network"]}
+{"id": "extreme-networks", "name": "Extreme Networks", "categories": ["network"]}
+{"id": "extron", "name": "Extron", "categories": ["audio_proav"]}
+{"id": "exxact", "name": "Exxact", "categories": ["servers"]}
+{"id": "f5", "name": "F5", "categories": ["network"]}
+{"id": "falcon-electric", "name": "Falcon Electric", "categories": ["infrastructure_ups"]}
+{"id": "fantec", "name": "Fantec", "categories": ["infrastructure_ups"]}
+{"id": "fbt", "name": "FBT", "categories": ["audio_proav"]}
+{"id": "ferrari-electronic", "name": "Ferrari electronic", "categories": ["network"]}
+{"id": "ferrofish", "name": "Ferrofish", "categories": ["audio_proav"]}
+{"id": "fiamm", "name": "FIAMM", "categories": ["infrastructure_ups"]}
+{"id": "fiberhome", "name": "FiberHome", "categories": ["network"]}
+{"id": "fiberplex", "name": "FiberPlex", "categories": ["audio_proav"]}
+{"id": "fischer-amps", "name": "Fischer Amps", "categories": ["audio_proav"]}
+{"id": "flaktgroup", "name": "FläktGroup", "categories": ["infrastructure_ups"]}
+{"id": "fluidmesh", "name": "Fluidmesh", "categories": ["network"]}
+{"id": "flyht-pro", "name": "Flyht Pro", "categories": ["infrastructure_ups"]}
+{"id": "fmr-audio", "name": "FMR Audio", "categories": ["audio_proav"]}
+{"id": "focusrite", "name": "Focusrite", "categories": ["audio_proav"]}
+{"id": "for-a", "name": "FOR-A", "categories": ["audio_proav"]}
+{"id": "force10-networks", "name": "Force10 Networks", "categories": ["network"]}
+{"id": "forcepoint", "name": "Forcepoint", "categories": ["network"]}
+{"id": "formula-sound", "name": "Formula Sound", "categories": ["audio_proav"]}
+{"id": "fortinet", "name": "Fortinet", "categories": ["network"]}
+{"id": "fostex", "name": "Fostex", "categories": ["audio_proav"]}
+{"id": "foundry-networks", "name": "Foundry Networks", "categories": ["network"]}
+{"id": "foxconn", "name": "Foxconn", "categories": ["network", "servers"]}
+{"id": "fractal-audio", "name": "Fractal Audio", "categories": ["audio_proav"]}
+{"id": "fs", "name": "FS", "categories": ["infrastructure_ups"]}
+{"id": "fs-com", "name": "FS.com", "categories": ["network"]}
+{"id": "fsp", "name": "FSP", "categories": ["infrastructure_ups"]}
+{"id": "fsr", "name": "FSR", "categories": ["audio_proav"]}
+{"id": "fujitsu", "name": "Fujitsu", "categories": ["network", "servers"]}
+{"id": "fujitsu-siemens-computers", "name": "Fujitsu Siemens Computers", "categories": ["servers"]}
+{"id": "funkwerk", "name": "Funkwerk", "categories": ["network"]}
+{"id": "furman", "name": "Furman", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "furukawa-electric", "name": "Furukawa Electric", "categories": ["network"]}
+{"id": "galaxy-audio", "name": "Galaxy Audio", "categories": ["audio_proav"]}
+{"id": "gamatronic", "name": "Gamatronic", "categories": ["infrastructure_ups"]}
+{"id": "garland-technology", "name": "Garland Technology", "categories": ["network"]}
+{"id": "garrettcom", "name": "GarrettCom", "categories": ["network"]}
+{"id": "gateway", "name": "Gateway", "categories": ["servers"]}
+{"id": "gator", "name": "Gator", "categories": ["infrastructure_ups"]}
+{"id": "ge", "name": "GE", "categories": ["infrastructure_ups"]}
+{"id": "gefen", "name": "Gefen", "categories": ["audio_proav"]}
+{"id": "geist", "name": "Geist", "categories": ["infrastructure_ups"]}
+{"id": "genband", "name": "Genband", "categories": ["network"]}
+{"id": "general-datacomm", "name": "General DataComm", "categories": ["network"]}
+{"id": "general-devices", "name": "General Devices", "categories": ["infrastructure_ups"]}
+{"id": "genexis", "name": "Genexis", "categories": ["network"]}
+{"id": "genua", "name": "genua", "categories": ["network"]}
+{"id": "gigabyte", "name": "GIGABYTE", "categories": ["servers"]}
+{"id": "gigamon", "name": "Gigamon", "categories": ["network"]}
+{"id": "gilat", "name": "Gilat", "categories": ["network"]}
+{"id": "glensound", "name": "Glensound", "categories": ["audio_proav"]}
+{"id": "gnodal", "name": "Gnodal", "categories": ["network"]}
+{"id": "golden-age-project", "name": "Golden Age Project", "categories": ["audio_proav"]}
+{"id": "gooxi", "name": "Gooxi", "categories": ["servers"]}
+{"id": "grace-design", "name": "Grace Design", "categories": ["audio_proav"]}
+{"id": "graid", "name": "GRAID", "categories": ["servers"]}
+{"id": "grandstream", "name": "Grandstream", "categories": ["network"]}
+{"id": "grass-valley", "name": "Grass Valley", "categories": ["audio_proav"]}
+{"id": "grc", "name": "GRC", "categories": ["infrastructure_ups"]}
+{"id": "great-lakes", "name": "Great Lakes", "categories": ["infrastructure_ups"]}
+{"id": "great-river", "name": "Great River", "categories": ["audio_proav"]}
+{"id": "green-hippo", "name": "Green Hippo", "categories": ["audio_proav"]}
+{"id": "green-go", "name": "Green-GO", "categories": ["audio_proav"]}
+{"id": "grimm-audio", "name": "Grimm Audio", "categories": ["audio_proav"]}
+{"id": "grundorf", "name": "Grundorf", "categories": ["infrastructure_ups"]}
+{"id": "gude", "name": "Gude", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "guntermann-drunck", "name": "Guntermann & Drunck", "categories": ["infrastructure_ups"]}
+{"id": "h3c", "name": "H3C", "categories": ["network", "servers"]}
+{"id": "hafler", "name": "Hafler", "categories": ["audio_proav"]}
+{"id": "haivision", "name": "Haivision", "categories": ["audio_proav"]}
+{"id": "hall-technologies", "name": "Hall Technologies", "categories": ["audio_proav"]}
+{"id": "hammond-manufacturing", "name": "Hammond Manufacturing", "categories": ["infrastructure_ups"]}
+{"id": "handreamnet", "name": "HandreamNet", "categories": ["network"]}
+{"id": "happyware", "name": "Happyware", "categories": ["servers"]}
+{"id": "hardigg", "name": "Hardigg", "categories": ["infrastructure_ups"]}
+{"id": "harmonic", "name": "Harmonic", "categories": ["audio_proav", "network"]}
+{"id": "hasivo", "name": "Hasivo", "categories": ["network"]}
+{"id": "hec", "name": "HEC", "categories": ["infrastructure_ups"]}
+{"id": "hellermanntyton", "name": "HellermannTyton", "categories": ["infrastructure_ups"]}
+{"id": "henry-engineering", "name": "Henry Engineering", "categories": ["audio_proav"]}
+{"id": "heritage-audio", "name": "Heritage Audio", "categories": ["audio_proav"]}
+{"id": "hfcl", "name": "HFCL", "categories": ["network"]}
+{"id": "hfr", "name": "HFR", "categories": ["network"]}
+{"id": "high-end-systems", "name": "High End Systems", "categories": ["audio_proav"]}
+{"id": "hikvision", "name": "Hikvision", "categories": ["network"]}
+{"id": "hillstone-networks", "name": "Hillstone Networks", "categories": ["network"]}
+{"id": "hirschmann", "name": "Hirschmann", "categories": ["network"]}
+{"id": "hitachi", "name": "Hitachi", "categories": ["network", "servers"]}
+{"id": "hitachi-hi-rel", "name": "Hitachi Hi-Rel", "categories": ["infrastructure_ups"], "parent": "hitachi"}
+{"id": "hitachi-vantara", "name": "Hitachi Vantara", "categories": ["servers"], "parent": "hitachi"}
+{"id": "hitec-power-protection", "name": "Hitec Power Protection", "categories": ["infrastructure_ups"]}
+{"id": "hoffman", "name": "Hoffman", "categories": ["infrastructure_ups"], "parent": "nvent"}
+{"id": "hoppecke", "name": "Hoppecke", "categories": ["infrastructure_ups"]}
+{"id": "horaco", "name": "Horaco", "categories": ["network"]}
+{"id": "hpe", "name": "HPE", "categories": ["network", "servers"]}
+{"id": "huahuan", "name": "Huahuan", "categories": ["network"]}
+{"id": "huakun-zhenyu", "name": "Huakun Zhenyu", "categories": ["servers"]}
+{"id": "huawei", "name": "Huawei", "categories": ["infrastructure_ups", "network", "servers"]}
+{"id": "hubbell", "name": "Hubbell", "categories": ["infrastructure_ups"]}
+{"id": "huber-suhner", "name": "Huber+Suhner", "categories": ["infrastructure_ups"]}
+{"id": "hughes", "name": "Hughes", "categories": ["network"]}
+{"id": "hw-group", "name": "HW group", "categories": ["infrastructure_ups"]}
+{"id": "hyperline", "name": "Hyperline", "categories": ["infrastructure_ups"]}
+{"id": "hyve-solutions", "name": "Hyve Solutions", "categories": ["servers"]}
+{"id": "i-o-data", "name": "I-O DATA", "categories": ["network"]}
+{"id": "ibm", "name": "IBM", "categories": ["network", "servers"]}
+{"id": "iceotope", "name": "Iceotope", "categories": ["infrastructure_ups"]}
+{"id": "icotera", "name": "Icotera", "categories": ["network"]}
+{"id": "icron", "name": "Icron", "categories": ["audio_proav"]}
+{"id": "idirect", "name": "iDirect", "categories": ["network"]}
+{"id": "iei-integration", "name": "IEI Integration", "categories": ["servers"]}
+{"id": "ignitenet", "name": "IgniteNet", "categories": ["network"]}
+{"id": "igs-audio", "name": "IGS Audio", "categories": ["audio_proav"]}
+{"id": "ihse", "name": "IHSE", "categories": ["infrastructure_ups"]}
+{"id": "ikegami", "name": "Ikegami", "categories": ["audio_proav"]}
+{"id": "imagine-communications", "name": "Imagine Communications", "categories": ["audio_proav"]}
+{"id": "imc-networks", "name": "IMC Networks", "categories": ["network"]}
+{"id": "img-stageline", "name": "IMG Stageline", "categories": ["audio_proav"]}
+{"id": "imperva", "name": "Imperva", "categories": ["network"]}
+{"id": "in-win", "name": "In Win", "categories": ["infrastructure_ups", "servers"]}
+{"id": "infinera", "name": "Infinera", "categories": ["network"]}
+{"id": "infinet-wireless", "name": "InfiNet Wireless", "categories": ["network"]}
+{"id": "infinidat", "name": "Infinidat", "categories": ["servers"]}
+{"id": "infoblox", "name": "Infoblox", "categories": ["network"]}
+{"id": "inform", "name": "Inform", "categories": ["infrastructure_ups"]}
+{"id": "infortrend", "name": "Infortrend", "categories": ["servers"]}
+{"id": "ingate-systems", "name": "Ingate Systems", "categories": ["network"]}
+{"id": "ingrasys", "name": "Ingrasys", "categories": ["servers"], "parent": "foxconn"}
+{"id": "inhand-networks", "name": "InHand Networks", "categories": ["network"]}
+{"id": "inline", "name": "InLine", "categories": ["infrastructure_ups"]}
+{"id": "innovaphone", "name": "innovaphone", "categories": ["network"]}
+{"id": "inovonics", "name": "Inovonics", "categories": ["audio_proav"]}
+{"id": "inspur", "name": "Inspur", "categories": ["network", "servers"]}
+{"id": "insys-icom", "name": "INSYS icom", "categories": ["network"]}
+{"id": "intel", "name": "Intel", "categories": ["servers"]}
+{"id": "intelbras", "name": "Intelbras", "categories": ["network"]}
+{"id": "intelix", "name": "Intelix", "categories": ["audio_proav"]}
+{"id": "intellinet", "name": "Intellinet", "categories": ["infrastructure_ups", "network"]}
+{"id": "inter-m", "name": "Inter-M", "categories": ["audio_proav"]}
+{"id": "inter-tech", "name": "Inter-Tech", "categories": ["infrastructure_ups", "servers"]}
+{"id": "intracom-telecom", "name": "Intracom Telecom", "categories": ["network"]}
+{"id": "inventec", "name": "Inventec", "categories": ["servers"]}
+{"id": "invt", "name": "INVT", "categories": ["infrastructure_ups"]}
+{"id": "ipanema", "name": "Ipanema", "categories": ["network"]}
+{"id": "iru", "name": "iRU", "categories": ["servers"]}
+{"id": "iskratel", "name": "Iskratel", "categories": ["network"]}
+{"id": "istarusa", "name": "iStarUSA", "categories": ["infrastructure_ups", "servers"]}
+{"id": "italtel", "name": "Italtel", "categories": ["network"]}
+{"id": "itwatchdogs", "name": "ITWatchDogs", "categories": ["infrastructure_ups"]}
+{"id": "ixia", "name": "Ixia", "categories": ["network"]}
+{"id": "ixsystems", "name": "iXsystems", "categories": ["servers"]}
+{"id": "j-squared", "name": "J-Squared", "categories": ["servers"]}
+{"id": "jacarta", "name": "Jacarta", "categories": ["infrastructure_ups"]}
+{"id": "jbl-professional", "name": "JBL Professional", "categories": ["audio_proav"]}
+{"id": "jensen-transformers", "name": "Jensen Transformers", "categories": ["audio_proav"]}
+{"id": "jetcool", "name": "JetCool", "categories": ["infrastructure_ups"]}
+{"id": "jetway", "name": "Jetway", "categories": ["servers"]}
+{"id": "jk-audio", "name": "JK Audio", "categories": ["audio_proav"]}
+{"id": "jlcooper-electronics", "name": "JLCooper Electronics", "categories": ["audio_proav"]}
+{"id": "joemeek", "name": "Joemeek", "categories": ["audio_proav"]}
+{"id": "jovyatlas", "name": "Jovyatlas", "categories": ["infrastructure_ups"]}
+{"id": "jts", "name": "JTS", "categories": ["audio_proav"]}
+{"id": "juice-goose", "name": "Juice Goose", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "junger-audio", "name": "Jünger Audio", "categories": ["audio_proav"]}
+{"id": "juniper-networks", "name": "Juniper Networks", "categories": ["network"]}
+{"id": "just-add-power", "name": "Just Add Power", "categories": ["audio_proav"]}
+{"id": "jvc", "name": "JVC", "categories": ["audio_proav"]}
+{"id": "k-array", "name": "K-array", "categories": ["audio_proav"]}
+{"id": "kanexpro", "name": "KanexPro", "categories": ["audio_proav"]}
+{"id": "keeplink", "name": "KeepLink", "categories": ["network"]}
+{"id": "kehua", "name": "Kehua", "categories": ["infrastructure_ups"]}
+{"id": "kemp", "name": "Kemp", "categories": ["network"]}
+{"id": "kemper", "name": "Kemper", "categories": ["audio_proav"]}
+{"id": "kendall-howard", "name": "Kendall Howard", "categories": ["infrastructure_ups"]}
+{"id": "key-digital", "name": "Key Digital", "categories": ["audio_proav"]}
+{"id": "keysight", "name": "Keysight", "categories": ["network"]}
+{"id": "kiloview", "name": "Kiloview", "categories": ["audio_proav"]}
+{"id": "kinan", "name": "Kinan", "categories": ["infrastructure_ups"]}
+{"id": "klang-technologies", "name": "KLANG:technologies", "categories": ["audio_proav"]}
+{"id": "klark-teknik", "name": "Klark Teknik", "categories": ["audio_proav"]}
+{"id": "knurr", "name": "Knürr", "categories": ["infrastructure_ups"], "parent": "vertiv"}
+{"id": "kohler", "name": "Kohler", "categories": ["infrastructure_ups"]}
+{"id": "kontron", "name": "Kontron", "categories": ["servers"]}
+{"id": "korenix", "name": "Korenix", "categories": ["network"]}
+{"id": "korg", "name": "Korg", "categories": ["audio_proav"]}
+{"id": "kraftway", "name": "Kraftway", "categories": ["servers"]}
+{"id": "kramer", "name": "Kramer", "categories": ["audio_proav"]}
+{"id": "krone", "name": "KRONE", "categories": ["infrastructure_ups"]}
+{"id": "kstar", "name": "KSTAR", "categories": ["infrastructure_ups"]}
+{"id": "kti-networks", "name": "KTI Networks", "categories": ["network"]}
+{"id": "kush-audio", "name": "Kush Audio", "categories": ["audio_proav"]}
+{"id": "kv2-audio", "name": "KV2 Audio", "categories": ["audio_proav"]}
+{"id": "l-acoustics", "name": "L-Acoustics", "categories": ["audio_proav"]}
+{"id": "lab-gruppen", "name": "Lab.gruppen", "categories": ["audio_proav"]}
+{"id": "lake", "name": "Lake", "categories": ["audio_proav"]}
+{"id": "lake-people", "name": "Lake People", "categories": ["audio_proav"]}
+{"id": "lambda", "name": "Lambda", "categories": ["servers"]}
+{"id": "lanberg", "name": "Lanberg", "categories": ["infrastructure_ups"]}
+{"id": "lancom-systems", "name": "LANCOM Systems", "categories": ["network"]}
+{"id": "lande", "name": "Lande", "categories": ["infrastructure_ups"]}
+{"id": "lanner", "name": "Lanner", "categories": ["network", "servers"]}
+{"id": "lantronix", "name": "Lantronix", "categories": ["infrastructure_ups", "network"]}
+{"id": "larch-networks", "name": "Larch Networks", "categories": ["network"]}
+{"id": "lawo", "name": "Lawo", "categories": ["audio_proav"]}
+{"id": "layerzero-power-systems", "name": "LayerZero Power Systems", "categories": ["infrastructure_ups"]}
+{"id": "lb-link", "name": "LB-LINK", "categories": ["network"]}
+{"id": "lc-power", "name": "LC-Power", "categories": ["infrastructure_ups"]}
+{"id": "ld-systems", "name": "LD Systems", "categories": ["audio_proav"]}
+{"id": "lea-professional", "name": "LEA Professional", "categories": ["audio_proav"]}
+{"id": "leader", "name": "Leader", "categories": ["audio_proav"]}
+{"id": "lectrosonics", "name": "Lectrosonics", "categories": ["audio_proav"]}
+{"id": "legrand", "name": "Legrand", "categories": ["infrastructure_ups"]}
+{"id": "lenovo", "name": "Lenovo", "categories": ["network", "servers"]}
+{"id": "leoch", "name": "Leoch", "categories": ["infrastructure_ups"]}
+{"id": "levelone", "name": "LevelOne", "categories": ["infrastructure_ups", "network"]}
+{"id": "leviton", "name": "Leviton", "categories": ["infrastructure_ups"]}
+{"id": "lexicon", "name": "Lexicon", "categories": ["audio_proav"]}
+{"id": "liebert", "name": "Liebert", "categories": ["infrastructure_ups"], "parent": "vertiv"}
+{"id": "lightronics", "name": "Lightronics", "categories": ["audio_proav"]}
+{"id": "lightware", "name": "Lightware", "categories": ["audio_proav"]}
+{"id": "ligowave", "name": "LigoWave", "categories": ["network"]}
+{"id": "lindell-audio", "name": "Lindell Audio", "categories": ["audio_proav"]}
+{"id": "lindy", "name": "Lindy", "categories": ["infrastructure_ups", "network"]}
+{"id": "line-6", "name": "Line 6", "categories": ["audio_proav"]}
+{"id": "linea-research", "name": "Linea Research", "categories": ["audio_proav"]}
+{"id": "link-electronics", "name": "Link Electronics", "categories": ["audio_proav"]}
+{"id": "linkbasic", "name": "Linkbasic", "categories": ["infrastructure_ups"]}
+{"id": "linksys", "name": "Linksys", "categories": ["network"]}
+{"id": "liquidstack", "name": "LiquidStack", "categories": ["infrastructure_ups"]}
+{"id": "listen-technologies", "name": "Listen Technologies", "categories": ["audio_proav"]}
+{"id": "lite-puter", "name": "Lite-Puter", "categories": ["audio_proav"]}
+{"id": "liveu", "name": "LiveU", "categories": ["audio_proav"]}
+{"id": "loadbalancer-org", "name": "Loadbalancer.org", "categories": ["network"]}
+{"id": "logic-case", "name": "Logic Case", "categories": ["infrastructure_ups"]}
+{"id": "logilink", "name": "LogiLink", "categories": ["infrastructure_ups"]}
+{"id": "looptrotter", "name": "Looptrotter", "categories": ["audio_proav"]}
+{"id": "lowell-manufacturing", "name": "Lowell Manufacturing", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "lsc-lighting", "name": "LSC Lighting", "categories": ["audio_proav"]}
+{"id": "lucent-technologies", "name": "Lucent Technologies", "categories": ["network"]}
+{"id": "lumantek", "name": "Lumantek", "categories": ["audio_proav"]}
+{"id": "luminex", "name": "Luminex", "categories": ["audio_proav", "network"]}
+{"id": "luminous", "name": "Luminous", "categories": ["infrastructure_ups"]}
+{"id": "luxul", "name": "Luxul", "categories": ["network"]}
+{"id": "lyntec", "name": "LynTec", "categories": ["audio_proav"]}
+{"id": "lynx-studio-technology", "name": "Lynx Studio Technology", "categories": ["audio_proav"]}
+{"id": "lynx-technik", "name": "LYNX Technik", "categories": ["audio_proav"]}
+{"id": "m-audio", "name": "M-Audio", "categories": ["audio_proav"]}
+{"id": "ma-lighting", "name": "MA Lighting", "categories": ["audio_proav"]}
+{"id": "maag-audio", "name": "Maag Audio", "categories": ["audio_proav"]}
+{"id": "mackie", "name": "Mackie", "categories": ["audio_proav"]}
+{"id": "madge-networks", "name": "Madge Networks", "categories": ["network"]}
+{"id": "magenta-research", "name": "Magenta Research", "categories": ["audio_proav"]}
+{"id": "magewell", "name": "Magewell", "categories": ["audio_proav"]}
+{"id": "maipu", "name": "Maipu", "categories": ["network"]}
+{"id": "makelsan", "name": "Makelsan", "categories": ["infrastructure_ups"]}
+{"id": "manley", "name": "Manley", "categories": ["audio_proav"]}
+{"id": "mantar", "name": "Mantar", "categories": ["infrastructure_ups"]}
+{"id": "marantz-professional", "name": "Marantz Professional", "categories": ["audio_proav"]}
+{"id": "marathon-cases", "name": "Marathon Cases", "categories": ["infrastructure_ups"]}
+{"id": "marathon-power", "name": "Marathon Power", "categories": ["infrastructure_ups"]}
+{"id": "marconi", "name": "Marconi", "categories": ["network"]}
+{"id": "marian", "name": "Marian", "categories": ["audio_proav"]}
+{"id": "marshall-electronics", "name": "Marshall Electronics", "categories": ["audio_proav"]}
+{"id": "martin-audio", "name": "Martin Audio", "categories": ["audio_proav"]}
+{"id": "martin-professional", "name": "Martin Professional", "categories": ["audio_proav"]}
+{"id": "marway-power-solutions", "name": "Marway Power Solutions", "categories": ["infrastructure_ups"]}
+{"id": "maselec", "name": "Maselec", "categories": ["audio_proav"]}
+{"id": "masterclock", "name": "Masterclock", "categories": ["audio_proav"]}
+{"id": "masterguard", "name": "MASTERGUARD", "categories": ["infrastructure_ups"]}
+{"id": "matrox", "name": "Matrox", "categories": ["audio_proav"]}
+{"id": "mc2-audio", "name": "MC2 Audio", "categories": ["audio_proav"]}
+{"id": "mcafee", "name": "McAfee", "categories": ["network"]}
+{"id": "mediamatrix", "name": "MediaMatrix", "categories": ["audio_proav"]}
+{"id": "megapixel-vr", "name": "Megapixel VR", "categories": ["audio_proav"]}
+{"id": "meinberg", "name": "Meinberg", "categories": ["network"]}
+{"id": "mellanox", "name": "Mellanox", "categories": ["network"], "parent": "nvidia"}
+{"id": "meraki", "name": "Meraki", "categories": ["network"], "parent": "cisco"}
+{"id": "mercury-systems", "name": "Mercury Systems", "categories": ["servers"]}
+{"id": "mercusys", "name": "Mercusys", "categories": ["network"]}
+{"id": "merging-technologies", "name": "Merging Technologies", "categories": ["audio_proav"]}
+{"id": "meru-networks", "name": "Meru Networks", "categories": ["network"]}
+{"id": "meta-system", "name": "Meta System", "categories": ["infrastructure_ups"]}
+{"id": "metamako", "name": "Metamako", "categories": ["network"]}
+{"id": "metaswitch", "name": "Metaswitch", "categories": ["network"]}
+{"id": "metric-halo", "name": "Metric Halo", "categories": ["audio_proav"]}
+{"id": "metz-connect", "name": "METZ CONNECT", "categories": ["infrastructure_ups"]}
+{"id": "meyer-sound", "name": "Meyer Sound", "categories": ["audio_proav"]}
+{"id": "mge-ups-systems", "name": "MGE UPS Systems", "categories": ["infrastructure_ups"]}
+{"id": "micas-networks", "name": "Micas Networks", "categories": ["network"]}
+{"id": "microchip", "name": "Microchip", "categories": ["network"]}
+{"id": "microsemi", "name": "Microsemi", "categories": ["network"]}
+{"id": "microsens", "name": "MICROSENS", "categories": ["network"]}
+{"id": "microtek", "name": "Microtek", "categories": ["infrastructure_ups"]}
+{"id": "microway", "name": "Microway", "categories": ["servers"]}
+{"id": "midas", "name": "Midas", "categories": ["audio_proav"]}
+{"id": "middle-atlantic-products", "name": "Middle Atlantic Products", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "mikrotik", "name": "MikroTik", "categories": ["network"]}
+{"id": "milesight", "name": "Milesight", "categories": ["network"]}
+{"id": "millenium", "name": "Millenium", "categories": ["audio_proav"]}
+{"id": "millennia", "name": "Millennia", "categories": ["audio_proav"]}
+{"id": "mimosa-networks", "name": "Mimosa Networks", "categories": ["network"]}
+{"id": "minicom", "name": "Minicom", "categories": ["infrastructure_ups"]}
+{"id": "minkels", "name": "Minkels", "categories": ["infrastructure_ups"]}
+{"id": "minuteman", "name": "Minuteman", "categories": ["infrastructure_ups"]}
+{"id": "mipro", "name": "MIPRO", "categories": ["audio_proav"]}
+{"id": "mitac", "name": "MiTAC", "categories": ["servers"]}
+{"id": "mitel", "name": "Mitel", "categories": ["network"]}
+{"id": "mitsubishi-electric", "name": "Mitsubishi Electric", "categories": ["infrastructure_ups", "network"]}
+{"id": "modulo-pi", "name": "Modulo Pi", "categories": ["audio_proav"]}
+{"id": "mokerlink", "name": "MokerLink", "categories": ["network"]}
+{"id": "molex", "name": "Molex", "categories": ["infrastructure_ups"]}
+{"id": "monacor", "name": "Monacor", "categories": ["audio_proav"]}
+{"id": "motivair", "name": "Motivair", "categories": ["infrastructure_ups"]}
+{"id": "motu", "name": "MOTU", "categories": ["audio_proav"]}
+{"id": "moxa", "name": "Moxa", "categories": ["infrastructure_ups", "network"]}
+{"id": "mrv-communications", "name": "MRV Communications", "categories": ["network"]}
+{"id": "msi", "name": "MSI", "categories": ["servers"]}
+{"id": "multidyne", "name": "Multidyne", "categories": ["audio_proav"]}
+{"id": "munters", "name": "Munters", "categories": ["infrastructure_ups"]}
+{"id": "mushroom-networks", "name": "Mushroom Networks", "categories": ["network"]}
+{"id": "mutec", "name": "MUTEC", "categories": ["audio_proav"]}
+{"id": "muxlab", "name": "MuxLab", "categories": ["audio_proav"]}
+{"id": "myelectronics", "name": "MyElectronics", "categories": ["infrastructure_ups"]}
+{"id": "mytek", "name": "Mytek", "categories": ["audio_proav"]}
+{"id": "n-tron", "name": "N-Tron", "categories": ["network"]}
+{"id": "nady", "name": "Nady", "categories": ["audio_proav"]}
+{"id": "napatech", "name": "Napatech", "categories": ["network"]}
+{"id": "narada", "name": "Narada", "categories": ["infrastructure_ups"]}
+{"id": "nateks", "name": "Nateks", "categories": ["network"]}
+{"id": "ncr", "name": "NCR", "categories": ["servers"]}
+{"id": "nec", "name": "NEC", "categories": ["network", "servers"]}
+{"id": "neousys-technology", "name": "Neousys Technology", "categories": ["servers"]}
+{"id": "net-optics", "name": "Net Optics", "categories": ["network"]}
+{"id": "netapp", "name": "NetApp", "categories": ["servers"]}
+{"id": "netas", "name": "Netaş", "categories": ["network"]}
+{"id": "netberg", "name": "Netberg", "categories": ["network"]}
+{"id": "netbotz", "name": "NetBotz", "categories": ["infrastructure_ups"], "parent": "apc"}
+{"id": "netgate", "name": "Netgate", "categories": ["network"]}
+{"id": "netgear", "name": "NETGEAR", "categories": ["audio_proav", "network", "servers"]}
+{"id": "netio", "name": "NETIO", "categories": ["infrastructure_ups"]}
+{"id": "netis", "name": "Netis", "categories": ["network"]}
+{"id": "netmodule", "name": "NetModule", "categories": ["network"]}
+{"id": "netonix", "name": "Netonix", "categories": ["network"]}
+{"id": "netopia", "name": "Netopia", "categories": ["network"]}
+{"id": "netrack", "name": "NetRack", "categories": ["infrastructure_ups"]}
+{"id": "netscout", "name": "NetScout", "categories": ["network"]}
+{"id": "netscreen-technologies", "name": "NetScreen Technologies", "categories": ["network"]}
+{"id": "nettrix", "name": "Nettrix", "categories": ["servers"]}
+{"id": "network-general", "name": "Network General", "categories": ["network"]}
+{"id": "neutrik", "name": "Neutrik", "categories": ["infrastructure_ups"]}
+{"id": "neve", "name": "Neve", "categories": ["audio_proav"]}
+{"id": "nevion", "name": "Nevion", "categories": ["audio_proav"]}
+{"id": "newisys", "name": "Newisys", "categories": ["servers"]}
+{"id": "newmar", "name": "Newmar", "categories": ["infrastructure_ups"]}
+{"id": "newtec", "name": "Newtec", "categories": ["network"]}
+{"id": "newtek", "name": "NewTek", "categories": ["audio_proav"]}
+{"id": "nexcom", "name": "NEXCOM", "categories": ["network", "servers"]}
+{"id": "nexo", "name": "NEXO", "categories": ["audio_proav"]}
+{"id": "nexsan", "name": "Nexsan", "categories": ["servers"]}
+{"id": "nfina", "name": "Nfina", "categories": ["servers"]}
+{"id": "niagara-networks", "name": "Niagara Networks", "categories": ["network"]}
+{"id": "nicgiga", "name": "NICGIGA", "categories": ["network"]}
+{"id": "nile", "name": "Nile", "categories": ["network"]}
+{"id": "nixer-pro-audio", "name": "Nixer Pro Audio", "categories": ["audio_proav"]}
+{"id": "nokia", "name": "Nokia", "categories": ["network"]}
+{"id": "nomadix", "name": "Nomadix", "categories": ["network"]}
+{"id": "norco", "name": "Norco", "categories": ["infrastructure_ups", "servers"]}
+{"id": "nortel", "name": "Nortel", "categories": ["network"]}
+{"id": "northstar", "name": "NorthStar", "categories": ["infrastructure_ups"]}
+{"id": "novastar", "name": "NovaStar", "categories": ["audio_proav"]}
+{"id": "nsfocus", "name": "NSFOCUS", "categories": ["network"]}
+{"id": "nti", "name": "NTI", "categories": ["infrastructure_ups"]}
+{"id": "numeric", "name": "Numeric", "categories": ["infrastructure_ups"]}
+{"id": "nutanix", "name": "Nutanix", "categories": ["servers"]}
+{"id": "nvent", "name": "nVent", "categories": ["infrastructure_ups"]}
+{"id": "nvidia", "name": "NVIDIA", "categories": ["network", "servers"]}
+{"id": "obsidian-control-systems", "name": "Obsidian Control Systems", "categories": ["audio_proav"]}
+{"id": "occam-networks", "name": "Occam Networks", "categories": ["network"]}
+{"id": "odyssey", "name": "Odyssey", "categories": ["infrastructure_ups"]}
+{"id": "oki-electric", "name": "Oki Electric", "categories": ["network"]}
+{"id": "omnia", "name": "Omnia", "categories": ["audio_proav"]}
+{"id": "omnitron-systems", "name": "Omnitron Systems", "categories": ["network"]}
+{"id": "omnitronic", "name": "Omnitronic", "categories": ["audio_proav"]}
+{"id": "online-usv", "name": "ONLINE USV", "categories": ["infrastructure_ups"]}
+{"id": "onlogic", "name": "OnLogic", "categories": ["servers"]}
+{"id": "opendrives", "name": "OpenDrives", "categories": ["servers"]}
+{"id": "opengear", "name": "Opengear", "categories": ["infrastructure_ups", "network"]}
+{"id": "optimal-audio", "name": "Optimal Audio", "categories": ["audio_proav"]}
+{"id": "oracle", "name": "Oracle", "categories": ["network", "servers"]}
+{"id": "orban", "name": "Orban", "categories": ["audio_proav"]}
+{"id": "oring", "name": "ORing", "categories": ["network"]}
+{"id": "orolia", "name": "Orolia", "categories": ["network"]}
+{"id": "ortronics", "name": "Ortronics", "categories": ["infrastructure_ups"]}
+{"id": "oscilloquartz", "name": "Oscilloquartz", "categories": ["network"]}
+{"id": "osprey-video", "name": "Osprey Video", "categories": ["audio_proav"]}
+{"id": "outline", "name": "Outline", "categories": ["audio_proav"]}
+{"id": "overland-tandberg", "name": "Overland-Tandberg", "categories": ["servers"]}
+{"id": "overstayer", "name": "Overstayer", "categories": ["audio_proav"]}
+{"id": "overture-networks", "name": "Overture Networks", "categories": ["network"]}
+{"id": "packet-power", "name": "Packet Power", "categories": ["infrastructure_ups"]}
+{"id": "packeteer", "name": "Packeteer", "categories": ["network"]}
+{"id": "packetlight-networks", "name": "PacketLight Networks", "categories": ["network"]}
+{"id": "padtec", "name": "Padtec", "categories": ["network"]}
+{"id": "pakedge", "name": "Pakedge", "categories": ["network"]}
+{"id": "palmer", "name": "Palmer", "categories": ["audio_proav"]}
+{"id": "palo-alto-networks", "name": "Palo Alto Networks", "categories": ["network"]}
+{"id": "panamax", "name": "Panamax", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "panasas", "name": "Panasas", "categories": ["servers"]}
+{"id": "panasonic", "name": "Panasonic", "categories": ["audio_proav", "network"]}
+{"id": "panduit", "name": "Panduit", "categories": ["infrastructure_ups"]}
+{"id": "paradyne", "name": "Paradyne", "categories": ["network"]}
+{"id": "parks", "name": "PARKS", "categories": ["network"]}
+{"id": "pathway-connectivity", "name": "Pathway Connectivity", "categories": ["audio_proav"]}
+{"id": "patton", "name": "Patton", "categories": ["audio_proav", "network"]}
+{"id": "pdi", "name": "PDI", "categories": ["infrastructure_ups"]}
+{"id": "peavey", "name": "Peavey", "categories": ["audio_proav"]}
+{"id": "pegatron", "name": "Pegatron", "categories": ["servers"]}
+{"id": "pelican", "name": "Pelican", "categories": ["infrastructure_ups"]}
+{"id": "penguin-solutions", "name": "Penguin Solutions", "categories": ["servers"]}
+{"id": "penn-elcom", "name": "Penn Elcom", "categories": ["infrastructure_ups"]}
+{"id": "peplink", "name": "Peplink", "categories": ["network"]}
+{"id": "pepperl-fuchs", "name": "Pepperl+Fuchs", "categories": ["network"]}
+{"id": "perle", "name": "Perle", "categories": ["infrastructure_ups", "network"]}
+{"id": "pesa", "name": "PESA", "categories": ["audio_proav"]}
+{"id": "phabrix", "name": "Phabrix", "categories": ["audio_proav"]}
+{"id": "phoenix-audio", "name": "Phoenix Audio", "categories": ["audio_proav"]}
+{"id": "phoenix-contact", "name": "Phoenix Contact", "categories": ["network"]}
+{"id": "phonic", "name": "Phonic", "categories": ["audio_proav"]}
+{"id": "piller", "name": "Piller", "categories": ["infrastructure_ups"]}
+{"id": "piolink", "name": "Piolink", "categories": ["network"]}
+{"id": "pivot3", "name": "Pivot3", "categories": ["servers"]}
+{"id": "planet-technology", "name": "Planet Technology", "categories": ["network"]}
+{"id": "pliant-technologies", "name": "Pliant Technologies", "categories": ["audio_proav"]}
+{"id": "pluribus-networks", "name": "Pluribus Networks", "categories": ["network"]}
+{"id": "polargy", "name": "Polargy", "categories": ["infrastructure_ups"]}
+{"id": "poly", "name": "Poly", "categories": ["audio_proav"]}
+{"id": "polycom", "name": "Polycom", "categories": ["audio_proav"]}
+{"id": "polygon-spe", "name": "Polygon SPE", "categories": ["network"]}
+{"id": "portwell", "name": "Portwell", "categories": ["network", "servers"]}
+{"id": "positron", "name": "Positron", "categories": ["network"]}
+{"id": "powerleader", "name": "Powerleader", "categories": ["servers"]}
+{"id": "powersoft", "name": "Powersoft", "categories": ["audio_proav"]}
+{"id": "powervar", "name": "PowerVar", "categories": ["infrastructure_ups"]}
+{"id": "powerwalker", "name": "PowerWalker", "categories": ["infrastructure_ups"]}
+{"id": "powerware", "name": "Powerware", "categories": ["infrastructure_ups"]}
+{"id": "presonus", "name": "PreSonus", "categories": ["audio_proav"]}
+{"id": "primeline-solutions", "name": "primeLine Solutions", "categories": ["servers"]}
+{"id": "prism-sound", "name": "Prism Sound", "categories": ["audio_proav"]}
+{"id": "procera-networks", "name": "Procera Networks", "categories": ["network"]}
+{"id": "procurve", "name": "ProCurve", "categories": ["network"], "parent": "hpe"}
+{"id": "proel", "name": "Proel", "categories": ["audio_proav"]}
+{"id": "profitap", "name": "Profitap", "categories": ["network"]}
+{"id": "promise-technology", "name": "Promise Technology", "categories": ["servers"]}
+{"id": "pronomic", "name": "Pronomic", "categories": ["audio_proav"]}
+{"id": "proteon", "name": "Proteon", "categories": ["network"]}
+{"id": "proxim-wireless", "name": "Proxim Wireless", "categories": ["network"]}
+{"id": "puget-systems", "name": "Puget Systems", "categories": ["servers"]}
+{"id": "pulizzi-engineering", "name": "Pulizzi Engineering", "categories": ["infrastructure_ups"]}
+{"id": "pultec", "name": "Pultec", "categories": ["audio_proav"]}
+{"id": "pure-storage", "name": "Pure Storage", "categories": ["servers"]}
+{"id": "purelink", "name": "PureLink", "categories": ["audio_proav"]}
+{"id": "purple-audio", "name": "Purple Audio", "categories": ["audio_proav"]}
+{"id": "pyle-pro", "name": "Pyle Pro", "categories": ["audio_proav"]}
+{"id": "pylontech", "name": "Pylontech", "categories": ["infrastructure_ups"]}
+{"id": "pyrotech", "name": "Pyrotech", "categories": ["infrastructure_ups"]}
+{"id": "q-sys", "name": "Q-SYS", "categories": ["audio_proav"], "parent": "qsc"}
+{"id": "qct", "name": "QCT", "categories": ["network", "servers"]}
+{"id": "qlogic", "name": "QLogic", "categories": ["network"]}
+{"id": "qnap", "name": "QNAP", "categories": ["network", "servers"]}
+{"id": "qsan", "name": "Qsan", "categories": ["servers"]}
+{"id": "qsc", "name": "QSC", "categories": ["audio_proav"]}
+{"id": "qtech", "name": "Qtech", "categories": ["network"]}
+{"id": "qualstar", "name": "Qualstar", "categories": ["servers"]}
+{"id": "quantum", "name": "Quantum", "categories": ["servers"]}
+{"id": "r-m", "name": "R&M", "categories": ["infrastructure_ups"]}
+{"id": "rackable-systems", "name": "Rackable Systems", "categories": ["servers"]}
+{"id": "rackchoice", "name": "RackChoice", "categories": ["infrastructure_ups"]}
+{"id": "rackmount-it", "name": "Rackmount.IT", "categories": ["infrastructure_ups"]}
+{"id": "racksolutions", "name": "RackSolutions", "categories": ["infrastructure_ups"]}
+{"id": "racktivity", "name": "Racktivity", "categories": ["infrastructure_ups"]}
+{"id": "rad-data-communications", "name": "RAD Data Communications", "categories": ["network"]}
+{"id": "radcom", "name": "Radcom", "categories": ["network"]}
+{"id": "radial-engineering", "name": "Radial Engineering", "categories": ["audio_proav"]}
+{"id": "radisys", "name": "Radisys", "categories": ["network", "servers"]}
+{"id": "radware", "name": "Radware", "categories": ["network"]}
+{"id": "radwin", "name": "RADWIN", "categories": ["network"]}
+{"id": "ragile-networks", "name": "Ragile Networks", "categories": ["network"]}
+{"id": "raisecom", "name": "Raisecom", "categories": ["network"]}
+{"id": "rane", "name": "Rane", "categories": ["audio_proav"]}
+{"id": "raritan", "name": "Raritan", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "raxxess", "name": "Raxxess", "categories": ["infrastructure_ups"]}
+{"id": "rcf", "name": "RCF", "categories": ["audio_proav"]}
+{"id": "rdl", "name": "RDL", "categories": ["audio_proav"]}
+{"id": "red-lion", "name": "Red Lion", "categories": ["network"]}
+{"id": "redback-networks", "name": "Redback Networks", "categories": ["network"]}
+{"id": "redline-communications", "name": "Redline Communications", "categories": ["network"]}
+{"id": "retro-instruments", "name": "Retro Instruments", "categories": ["audio_proav"]}
+{"id": "rextron", "name": "Rextron", "categories": ["infrastructure_ups"]}
+{"id": "rf-venue", "name": "RF Venue", "categories": ["audio_proav"]}
+{"id": "rgb-spectrum", "name": "RGB Spectrum", "categories": ["audio_proav"]}
+{"id": "rgblink", "name": "RGBlink", "categories": ["audio_proav"]}
+{"id": "ribbon", "name": "Ribbon", "categories": ["network"]}
+{"id": "riedel", "name": "Riedel", "categories": ["audio_proav"]}
+{"id": "riello-ups", "name": "Riello UPS", "categories": ["infrastructure_ups"]}
+{"id": "rittal", "name": "Rittal", "categories": ["infrastructure_ups"]}
+{"id": "riverbed", "name": "Riverbed", "categories": ["network"]}
+{"id": "riverstone-networks", "name": "Riverstone Networks", "categories": ["network"]}
+{"id": "rle-technologies", "name": "RLE Technologies", "categories": ["infrastructure_ups"]}
+{"id": "rlx-technologies", "name": "RLX Technologies", "categories": ["servers"]}
+{"id": "rme", "name": "RME", "categories": ["audio_proav"]}
+{"id": "road-ready", "name": "Road Ready", "categories": ["infrastructure_ups"]}
+{"id": "robe", "name": "Robe", "categories": ["audio_proav"]}
+{"id": "robustel", "name": "Robustel", "categories": ["network"]}
+{"id": "rockcase", "name": "RockCase", "categories": ["infrastructure_ups"]}
+{"id": "rocktron", "name": "Rocktron", "categories": ["audio_proav"]}
+{"id": "rohde-schwarz", "name": "Rohde & Schwarz", "categories": ["network"]}
+{"id": "roland-professional", "name": "Roland Professional", "categories": ["audio_proav"]}
+{"id": "roline", "name": "Roline", "categories": ["infrastructure_ups"]}
+{"id": "rolls", "name": "Rolls", "categories": ["audio_proav"]}
+{"id": "rondson", "name": "Rondson", "categories": ["audio_proav"]}
+{"id": "rose-electronics", "name": "Rose Electronics", "categories": ["infrastructure_ups"]}
+{"id": "rosenberger", "name": "Rosenberger", "categories": ["infrastructure_ups"]}
+{"id": "rosendahl", "name": "Rosendahl", "categories": ["audio_proav"]}
+{"id": "rosewill", "name": "Rosewill", "categories": ["infrastructure_ups", "servers"]}
+{"id": "ross-video", "name": "Ross Video", "categories": ["audio_proav"]}
+{"id": "rts", "name": "RTS", "categories": ["audio_proav"]}
+{"id": "rubrik", "name": "Rubrik", "categories": ["servers"]}
+{"id": "ruckus", "name": "Ruckus", "categories": ["network"]}
+{"id": "ruggedcom", "name": "RuggedCom", "categories": ["network"]}
+{"id": "ruijie", "name": "Ruijie", "categories": ["network"]}
+{"id": "rupert-neve-designs", "name": "Rupert Neve Designs", "categories": ["audio_proav"]}
+{"id": "russelectric", "name": "Russelectric", "categories": ["infrastructure_ups"]}
+{"id": "sabine", "name": "Sabine", "categories": ["audio_proav"]}
+{"id": "saf-tehnika", "name": "SAF Tehnika", "categories": ["network"]}
+{"id": "sagemcom", "name": "Sagemcom", "categories": ["network"]}
+{"id": "salicru", "name": "Salicru", "categories": ["infrastructure_ups"]}
+{"id": "samson", "name": "Samson", "categories": ["audio_proav"]}
+{"id": "samsung", "name": "Samsung", "categories": ["network"]}
+{"id": "sandvine", "name": "Sandvine", "categories": ["network"]}
+{"id": "sangfor", "name": "Sangfor", "categories": ["network", "servers"]}
+{"id": "sangoma", "name": "Sangoma", "categories": ["network"]}
+{"id": "sans-digital", "name": "Sans Digital", "categories": ["servers"]}
+{"id": "santak", "name": "Santak", "categories": ["infrastructure_ups"]}
+{"id": "santosom", "name": "Santosom", "categories": ["infrastructure_ups"]}
+{"id": "sanups", "name": "SANUPS", "categories": ["infrastructure_ups"]}
+{"id": "sanyo-denki", "name": "Sanyo Denki", "categories": ["infrastructure_ups"]}
+{"id": "scale-computing", "name": "Scale Computing", "categories": ["servers"]}
+{"id": "schafer-it-systems", "name": "Schäfer IT-Systems", "categories": ["infrastructure_ups"]}
+{"id": "schleifenbauer", "name": "Schleifenbauer", "categories": ["infrastructure_ups"]}
+{"id": "schneider-electric", "name": "Schneider Electric", "categories": ["infrastructure_ups"]}
+{"id": "schroff", "name": "Schroff", "categories": ["infrastructure_ups"], "parent": "nvent"}
+{"id": "seagate", "name": "Seagate", "categories": ["servers"]}
+{"id": "seamicro", "name": "SeaMicro", "categories": ["servers"]}
+{"id": "secunet", "name": "secunet", "categories": ["network"]}
+{"id": "securepoint", "name": "Securepoint", "categories": ["network"]}
+{"id": "senao-networks", "name": "Senao Networks", "categories": ["network"]}
+{"id": "sencore", "name": "Sencore", "categories": ["audio_proav"]}
+{"id": "sennheiser", "name": "Sennheiser", "categories": ["audio_proav"]}
+{"id": "sensaphone", "name": "Sensaphone", "categories": ["infrastructure_ups"]}
+{"id": "sequent", "name": "Sequent", "categories": ["servers"]}
+{"id": "sercomm", "name": "Sercomm", "categories": ["network"]}
+{"id": "server-technology", "name": "Server Technology", "categories": ["infrastructure_ups"]}
+{"id": "serveredge", "name": "Serveredge", "categories": ["infrastructure_ups"]}
+{"id": "serverscheck", "name": "ServersCheck", "categories": ["infrastructure_ups"]}
+{"id": "sescom", "name": "Sescom", "categories": ["audio_proav"]}
+{"id": "sgi", "name": "SGI", "categories": ["servers"]}
+{"id": "shadow-hills-industries", "name": "Shadow Hills Industries", "categories": ["audio_proav"]}
+{"id": "shiva", "name": "Shiva", "categories": ["network"]}
+{"id": "showtec", "name": "Showtec", "categories": ["audio_proav"]}
+{"id": "shure", "name": "Shure", "categories": ["audio_proav"]}
+{"id": "siae-microelettronica", "name": "SIAE Microelettronica", "categories": ["network"]}
+{"id": "siemens", "name": "Siemens", "categories": ["network"]}
+{"id": "siemon", "name": "Siemon", "categories": ["infrastructure_ups"]}
+{"id": "sierra-wireless", "name": "Sierra Wireless", "categories": ["network"]}
+{"id": "siklu", "name": "Siklu", "categories": ["network"]}
+{"id": "silex-technology", "name": "Silex Technology", "categories": ["network"]}
+{"id": "silicom", "name": "Silicom", "categories": ["network"]}
+{"id": "silicon-mechanics", "name": "Silicon Mechanics", "categories": ["servers"]}
+{"id": "silver-peak", "name": "Silver Peak", "categories": ["network"]}
+{"id": "silverstone", "name": "SilverStone", "categories": ["infrastructure_ups", "servers"]}
+{"id": "sinetica", "name": "Sinetica", "categories": ["infrastructure_ups"]}
+{"id": "sintrones", "name": "SINTRONES", "categories": ["servers"]}
+{"id": "skb", "name": "SKB", "categories": ["infrastructure_ups"]}
+{"id": "sliger", "name": "Sliger", "categories": ["infrastructure_ups"]}
+{"id": "smart-embedded-computing", "name": "SMART Embedded Computing", "categories": ["servers"]}
+{"id": "smart-research", "name": "Smart Research", "categories": ["audio_proav"]}
+{"id": "smartavi", "name": "SmartAVI", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "smartoptics", "name": "Smartoptics", "categories": ["network"]}
+{"id": "smc-networks", "name": "SMC Networks", "categories": ["network"]}
+{"id": "snake-tray", "name": "Snake Tray", "categories": ["infrastructure_ups"]}
+{"id": "snom", "name": "Snom", "categories": ["network"]}
+{"id": "snr", "name": "SNR", "categories": ["network"]}
+{"id": "socomec", "name": "Socomec", "categories": ["infrastructure_ups"]}
+{"id": "sodola", "name": "Sodola", "categories": ["network"]}
+{"id": "softiron", "name": "SoftIron", "categories": ["servers"]}
+{"id": "solahd", "name": "SolaHD", "categories": ["infrastructure_ups"]}
+{"id": "solid-state-logic", "name": "Solid State Logic", "categories": ["audio_proav"]}
+{"id": "sonicwall", "name": "SonicWall", "categories": ["network"]}
+{"id": "sonifex", "name": "Sonifex", "categories": ["audio_proav"]}
+{"id": "sonnet-technologies", "name": "Sonnet Technologies", "categories": ["infrastructure_ups"]}
+{"id": "sontec", "name": "Sontec", "categories": ["audio_proav"]}
+{"id": "sony", "name": "Sony", "categories": ["audio_proav"]}
+{"id": "sophos", "name": "Sophos", "categories": ["network"]}
+{"id": "sound-devices", "name": "Sound Devices", "categories": ["audio_proav"]}
+{"id": "soundcraft", "name": "Soundcraft", "categories": ["audio_proav"]}
+{"id": "speco-technologies", "name": "Speco Technologies", "categories": ["audio_proav"]}
+{"id": "spectra-logic", "name": "Spectra Logic", "categories": ["servers"]}
+{"id": "spectracom", "name": "Spectracom", "categories": ["network"]}
+{"id": "spirent", "name": "Spirent", "categories": ["network"]}
+{"id": "spl", "name": "SPL", "categories": ["audio_proav"]}
+{"id": "staco-energy", "name": "Staco Energy", "categories": ["infrastructure_ups"]}
+{"id": "stage-tec", "name": "Stage Tec", "categories": ["audio_proav"]}
+{"id": "stairville", "name": "Stairville", "categories": ["audio_proav"]}
+{"id": "stam-audio", "name": "Stam Audio", "categories": ["audio_proav"]}
+{"id": "starent-networks", "name": "Starent Networks", "categories": ["network"]}
+{"id": "starline", "name": "Starline", "categories": ["infrastructure_ups"]}
+{"id": "startech-com", "name": "StarTech.com", "categories": ["infrastructure_ups", "network"]}
+{"id": "steinberg", "name": "Steinberg", "categories": ["audio_proav"]}
+{"id": "stewart-audio", "name": "Stewart Audio", "categories": ["audio_proav"]}
+{"id": "stl", "name": "STL", "categories": ["network"]}
+{"id": "storagetek", "name": "StorageTek", "categories": ["servers"]}
+{"id": "stordis", "name": "STORDIS", "categories": ["network"]}
+{"id": "stormshield", "name": "Stormshield", "categories": ["network"]}
+{"id": "strand-lighting", "name": "Strand Lighting", "categories": ["audio_proav"]}
+{"id": "stratus-technologies", "name": "Stratus Technologies", "categories": ["servers"]}
+{"id": "studer", "name": "Studer", "categories": ["audio_proav"]}
+{"id": "studio-technologies", "name": "Studio Technologies", "categories": ["audio_proav"]}
+{"id": "studiomaster", "name": "Studiomaster", "categories": ["audio_proav"]}
+{"id": "stulz", "name": "STULZ", "categories": ["infrastructure_ups"]}
+{"id": "submer", "name": "Submer", "categories": ["infrastructure_ups"]}
+{"id": "subzero-engineering", "name": "Subzero Engineering", "categories": ["infrastructure_ups"]}
+{"id": "sugon", "name": "Sugon", "categories": ["servers"]}
+{"id": "sumitomo-electric", "name": "Sumitomo Electric", "categories": ["network"]}
+{"id": "summit-audio", "name": "Summit Audio", "categories": ["audio_proav"]}
+{"id": "sun-microsystems", "name": "Sun Microsystems", "categories": ["servers"]}
+{"id": "supermicro", "name": "Supermicro", "categories": ["infrastructure_ups", "network", "servers"]}
+{"id": "surgex", "name": "SurgeX", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "swan-flight", "name": "Swan Flight", "categories": ["infrastructure_ups"]}
+{"id": "swissonic", "name": "Swissonic", "categories": ["audio_proav"]}
+{"id": "symetrix", "name": "Symetrix", "categories": ["audio_proav"]}
+{"id": "symmetricom", "name": "Symmetricom", "categories": ["network"]}
+{"id": "synology", "name": "Synology", "categories": ["network", "servers"]}
+{"id": "sysracks", "name": "SysRacks", "categories": ["infrastructure_ups"]}
+{"id": "systel", "name": "Systel", "categories": ["servers"]}
+{"id": "system76", "name": "System76", "categories": ["servers"]}
+{"id": "taiden", "name": "Taiden", "categories": ["audio_proav"]}
+{"id": "talari-networks", "name": "Talari Networks", "categories": ["network"]}
+{"id": "tandem-computers", "name": "Tandem Computers", "categories": ["servers"]}
+{"id": "tarana-wireless", "name": "Tarana Wireless", "categories": ["network"]}
+{"id": "tascam", "name": "Tascam", "categories": ["audio_proav"]}
+{"id": "tc-electronic", "name": "TC Electronic", "categories": ["audio_proav"]}
+{"id": "te-connectivity", "name": "TE Connectivity", "categories": ["infrastructure_ups"]}
+{"id": "technicolor", "name": "Technicolor", "categories": ["network"]}
+{"id": "tegeler-audio-manufaktur", "name": "Tegeler Audio Manufaktur", "categories": ["audio_proav"]}
+{"id": "tejas-networks", "name": "Tejas Networks", "categories": ["network"]}
+{"id": "tektronix", "name": "Tektronix", "categories": ["audio_proav"]}
+{"id": "telco-systems", "name": "Telco Systems", "categories": ["network"]}
+{"id": "telcobridges", "name": "TelcoBridges", "categories": ["network"]}
+{"id": "teldat", "name": "Teldat", "categories": ["network"]}
+{"id": "telect", "name": "Telect", "categories": ["infrastructure_ups"]}
+{"id": "telegartner", "name": "Telegärtner", "categories": ["infrastructure_ups"]}
+{"id": "teleste", "name": "Teleste", "categories": ["network"]}
+{"id": "telestream", "name": "Telestream", "categories": ["audio_proav"]}
+{"id": "teletronix", "name": "Teletronix", "categories": ["audio_proav"]}
+{"id": "televes", "name": "Televes", "categories": ["network"]}
+{"id": "televic", "name": "Televic", "categories": ["audio_proav"]}
+{"id": "telex", "name": "Telex", "categories": ["audio_proav"]}
+{"id": "tellabs", "name": "Tellabs", "categories": ["network"]}
+{"id": "telos", "name": "Telos", "categories": ["audio_proav"]}
+{"id": "telrad", "name": "Telrad", "categories": ["network"]}
+{"id": "teltonika-networks", "name": "Teltonika Networks", "categories": ["network"]}
+{"id": "tenda", "name": "Tenda", "categories": ["network"]}
+{"id": "teradek", "name": "Teradek", "categories": ["audio_proav"]}
+{"id": "terra", "name": "TERRA", "categories": ["servers"]}
+{"id": "terramaster", "name": "TerraMaster", "categories": ["servers"]}
+{"id": "tescom", "name": "Tescom", "categories": ["infrastructure_ups"]}
+{"id": "tg-net", "name": "TG-Net", "categories": ["network"]}
+{"id": "tgc", "name": "TGC", "categories": ["infrastructure_ups", "servers"]}
+{"id": "the-t-amp", "name": "the t.amp", "categories": ["audio_proav"]}
+{"id": "theatrixx", "name": "Theatrixx", "categories": ["audio_proav"]}
+{"id": "thecus", "name": "Thecus", "categories": ["servers"]}
+{"id": "themis-computer", "name": "Themis Computer", "categories": ["servers"]}
+{"id": "thermionic-culture", "name": "Thermionic Culture", "categories": ["audio_proav"]}
+{"id": "thinklogical", "name": "Thinklogical", "categories": ["audio_proav", "infrastructure_ups"]}
+{"id": "thinkmate", "name": "Thinkmate", "categories": ["servers"]}
+{"id": "thomas-krenn", "name": "Thomas-Krenn", "categories": ["servers"]}
+{"id": "thon", "name": "Thon", "categories": ["infrastructure_ups"]}
+{"id": "tieline", "name": "Tieline", "categories": ["audio_proav"]}
+{"id": "tintri", "name": "Tintri", "categories": ["servers"]}
+{"id": "tippingpoint", "name": "TippingPoint", "categories": ["network"]}
+{"id": "tk-audio", "name": "TK Audio", "categories": ["audio_proav"]}
+{"id": "tl-audio", "name": "TL Audio", "categories": ["audio_proav"]}
+{"id": "toa", "name": "TOA", "categories": ["audio_proav"]}
+{"id": "topsec", "name": "Topsec", "categories": ["network"]}
+{"id": "toshiba", "name": "Toshiba", "categories": ["infrastructure_ups", "servers"]}
+{"id": "toten", "name": "TOTEN", "categories": ["infrastructure_ups"]}
+{"id": "totolink", "name": "Totolink", "categories": ["network"]}
+{"id": "tp-link", "name": "TP-Link", "categories": ["network"]}
+{"id": "trane", "name": "Trane", "categories": ["infrastructure_ups"]}
+{"id": "transition-networks", "name": "Transition Networks", "categories": ["network"]}
+{"id": "transmode", "name": "Transmode", "categories": ["network"]}
+{"id": "transtector", "name": "Transtector", "categories": ["infrastructure_ups"]}
+{"id": "trantec", "name": "Trantec", "categories": ["audio_proav"]}
+{"id": "trendnet", "name": "TRENDnet", "categories": ["infrastructure_ups", "network"]}
+{"id": "trenton-systems", "name": "Trenton Systems", "categories": ["servers"]}
+{"id": "trident", "name": "Trident", "categories": ["audio_proav"]}
+{"id": "trilogy", "name": "Trilogy", "categories": ["audio_proav"]}
+{"id": "trinity", "name": "Trinity", "categories": ["servers"]}
+{"id": "trinnov", "name": "Trinnov", "categories": ["audio_proav"]}
+{"id": "tripp-lite", "name": "Tripp Lite", "categories": ["audio_proav", "infrastructure_ups"], "parent": "eaton"}
+{"id": "triton", "name": "Triton", "categories": ["infrastructure_ups"]}
+{"id": "tsinghua-tongfang", "name": "Tsinghua Tongfang", "categories": ["servers"]}
+{"id": "tsl-products", "name": "TSL Products", "categories": ["audio_proav"]}
+{"id": "tube-tech", "name": "Tube-Tech", "categories": ["audio_proav"]}
+{"id": "turbosound", "name": "Turbosound", "categories": ["audio_proav"]}
+{"id": "turin-networks", "name": "Turin Networks", "categories": ["network"]}
+{"id": "turtle-av", "name": "Turtle AV", "categories": ["audio_proav"]}
+{"id": "tvone", "name": "tvONE", "categories": ["audio_proav"]}
+{"id": "tyan", "name": "Tyan", "categories": ["servers"]}
+{"id": "tyrone", "name": "Tyrone", "categories": ["servers"]}
+{"id": "ubiquiti", "name": "Ubiquiti", "categories": ["network"]}
+{"id": "ubiquoss", "name": "Ubiquoss", "categories": ["network"]}
+{"id": "uctronics", "name": "UCTRONICS", "categories": ["infrastructure_ups"]}
+{"id": "ufispace", "name": "UfiSpace", "categories": ["network"]}
+{"id": "uniflair", "name": "Uniflair", "categories": ["infrastructure_ups"], "parent": "schneider-electric"}
+{"id": "unify", "name": "Unify", "categories": ["network"]}
+{"id": "uniline", "name": "Uniline", "categories": ["infrastructure_ups"]}
+{"id": "unipower", "name": "UNIPOWER", "categories": ["infrastructure_ups"]}
+{"id": "unisys", "name": "Unisys", "categories": ["servers"]}
+{"id": "universal-audio", "name": "Universal Audio", "categories": ["audio_proav"]}
+{"id": "uniview", "name": "Uniview", "categories": ["network"]}
+{"id": "untangle", "name": "Untangle", "categories": ["network"]}
+{"id": "uplogix", "name": "Uplogix", "categories": ["infrastructure_ups"]}
+{"id": "upsite-technologies", "name": "Upsite Technologies", "categories": ["infrastructure_ups"]}
+{"id": "urei", "name": "UREI", "categories": ["audio_proav"]}
+{"id": "usystems", "name": "USystems", "categories": ["infrastructure_ups"]}
+{"id": "utah-scientific", "name": "Utah Scientific", "categories": ["audio_proav"]}
+{"id": "utstarcom", "name": "UTStarcom", "categories": ["network"]}
+{"id": "vaddio", "name": "Vaddio", "categories": ["audio_proav"]}
+{"id": "vast-data", "name": "VAST Data", "categories": ["servers"]}
+{"id": "vecima", "name": "Vecima", "categories": ["network"]}
+{"id": "vecow", "name": "Vecow", "categories": ["servers"]}
+{"id": "venustech", "name": "Venustech", "categories": ["network"]}
+{"id": "verari-systems", "name": "Verari Systems", "categories": ["servers"]}
+{"id": "veritas", "name": "Veritas", "categories": ["servers"]}
+{"id": "verotec", "name": "Verotec", "categories": ["infrastructure_ups"]}
+{"id": "versa-networks", "name": "Versa Networks", "categories": ["network"]}
+{"id": "versitron", "name": "Versitron", "categories": ["network"]}
+{"id": "vertiv", "name": "Vertiv", "categories": ["infrastructure_ups"]}
+{"id": "viasat", "name": "Viasat", "categories": ["network"]}
+{"id": "viavi", "name": "Viavi", "categories": ["network"]}
+{"id": "viglen", "name": "Viglen", "categories": ["servers"]}
+{"id": "viking-enterprise-solutions", "name": "Viking Enterprise Solutions", "categories": ["servers"]}
+{"id": "vintech-audio", "name": "Vintech Audio", "categories": ["audio_proav"]}
+{"id": "violin-memory", "name": "Violin Memory", "categories": ["servers"]}
+{"id": "visionary-solutions", "name": "Visionary Solutions", "categories": ["audio_proav"]}
+{"id": "vitec", "name": "VITEC", "categories": ["audio_proav"]}
+{"id": "vivotek", "name": "Vivotek", "categories": ["network"]}
+{"id": "vizrt", "name": "Vizrt", "categories": ["audio_proav"]}
+{"id": "vmp", "name": "VMP", "categories": ["infrastructure_ups"]}
+{"id": "void-acoustics", "name": "Void Acoustics", "categories": ["audio_proav"]}
+{"id": "volktek", "name": "Volktek", "categories": ["network"]}
+{"id": "voltaire", "name": "Voltaire", "categories": ["network"]}
+{"id": "vsol", "name": "VSOL", "categories": ["network"]}
+{"id": "vss-monitoring", "name": "VSS Monitoring", "categories": ["network"]}
+{"id": "vutlan", "name": "Vutlan", "categories": ["infrastructure_ups"]}
+{"id": "vvdn-technologies", "name": "VVDN Technologies", "categories": ["servers"]}
+{"id": "vycon", "name": "Vycon", "categories": ["infrastructure_ups"]}
+{"id": "warm-audio", "name": "Warm Audio", "categories": ["audio_proav"]}
+{"id": "watchguard", "name": "WatchGuard", "categories": ["network"]}
+{"id": "waystream", "name": "Waystream", "categories": ["network"]}
+{"id": "weidmuller", "name": "Weidmüller", "categories": ["network"]}
+{"id": "weiss-engineering", "name": "Weiss Engineering", "categories": ["audio_proav"]}
+{"id": "weiss-technik", "name": "Weiss Technik", "categories": ["infrastructure_ups"]}
+{"id": "welotec", "name": "Welotec", "categories": ["network"]}
+{"id": "wesaudio", "name": "WesAudio", "categories": ["audio_proav"]}
+{"id": "westell", "name": "Westell", "categories": ["network"]}
+{"id": "westermo", "name": "Westermo", "categories": ["network"]}
+{"id": "western-digital", "name": "Western Digital", "categories": ["servers"]}
+{"id": "wharfedale-pro", "name": "Wharfedale Pro", "categories": ["audio_proav"]}
+{"id": "wheatstone", "name": "Wheatstone", "categories": ["audio_proav"]}
+{"id": "whirlwind", "name": "Whirlwind", "categories": ["audio_proav"]}
+{"id": "williams-av", "name": "Williams AV", "categories": ["audio_proav"]}
+{"id": "win-enterprises", "name": "WIN Enterprises", "categories": ["servers"]}
+{"id": "wisi", "name": "WISI", "categories": ["network"]}
+{"id": "wistron", "name": "Wistron", "categories": ["servers"]}
+{"id": "wisycom", "name": "Wisycom", "categories": ["audio_proav"]}
+{"id": "wiwynn", "name": "Wiwynn", "categories": ["network", "servers"]}
+{"id": "wohler", "name": "Wohler", "categories": ["audio_proav"]}
+{"id": "wright-line", "name": "Wright Line", "categories": ["infrastructure_ups"]}
+{"id": "wti", "name": "WTI", "categories": ["infrastructure_ups"]}
+{"id": "wyrestorm", "name": "Wyrestorm", "categories": ["audio_proav"]}
+{"id": "x-case", "name": "X-Case", "categories": ["infrastructure_ups"]}
+{"id": "xantech", "name": "Xantech", "categories": ["audio_proav"]}
+{"id": "xfusion", "name": "xFusion", "categories": ["network", "servers"]}
+{"id": "xikestor", "name": "XikeStor", "categories": ["network"]}
+{"id": "xilica", "name": "Xilica", "categories": ["audio_proav"]}
+{"id": "xirrus", "name": "Xirrus", "categories": ["network"]}
+{"id": "xorcom", "name": "Xorcom", "categories": ["network"]}
+{"id": "xta", "name": "XTA", "categories": ["audio_proav"]}
+{"id": "xtera", "name": "Xtera", "categories": ["network"]}
+{"id": "xtreme-power-conversion", "name": "Xtreme Power Conversion", "categories": ["infrastructure_ups"]}
+{"id": "xyratex", "name": "Xyratex", "categories": ["servers"]}
+{"id": "yadro", "name": "YADRO", "categories": ["servers"]}
+{"id": "yamaha", "name": "Yamaha", "categories": ["audio_proav", "network"]}
+{"id": "yealink", "name": "Yealink", "categories": ["audio_proav"]}
+{"id": "yeastar", "name": "Yeastar", "categories": ["network"]}
+{"id": "yorkville", "name": "Yorkville", "categories": ["audio_proav"]}
+{"id": "yuanley", "name": "YuanLey", "categories": ["network"]}
+{"id": "yuasa", "name": "Yuasa", "categories": ["infrastructure_ups"]}
+{"id": "zaxcom", "name": "Zaxcom", "categories": ["audio_proav"]}
+{"id": "zeevee", "name": "ZeeVee", "categories": ["audio_proav"]}
+{"id": "zelax", "name": "Zelax", "categories": ["network"]}
+{"id": "zero-88", "name": "Zero 88", "categories": ["audio_proav"]}
+{"id": "zhone-technologies", "name": "Zhone Technologies", "categories": ["network"]}
+{"id": "zonit", "name": "Zonit", "categories": ["infrastructure_ups"]}
+{"id": "zpas", "name": "ZPAS", "categories": ["infrastructure_ups"]}
+{"id": "zpe-systems", "name": "ZPE Systems", "categories": ["infrastructure_ups"]}
+{"id": "zt-systems", "name": "ZT Systems", "categories": ["servers"]}
+{"id": "zte", "name": "ZTE", "categories": ["network", "servers"]}
+{"id": "zyxel", "name": "Zyxel", "categories": ["network"]}
