@@ -202,11 +202,10 @@ class LineLevelTests(BrandsFixtureTestCase):
         self.assert_error_mentioning(errors, "invalid JSON")
 
     def test_line_with_pure_json_array_does_not_crash(self) -> None:
-        """Known validator bug: a syntactically valid JSON array (not an object)
-        on a line crashes parse_lines with an unhandled TypeError instead of
-        being reported as a normal validation error. This test documents the
-        desired behaviour and is expected to fail until the validator guards
-        against non-object JSON values before unpacking key/value pairs.
+        """Regression: a syntactically valid JSON array on a line must be
+        reported, not crash parse_lines. `object_pairs_hook` fires only for
+        objects but hands back a list, so an array is indistinguishable from an
+        object by type alone unless objects are tagged (_JsonObject).
         """
         content = (
             '{"id": "foo", "name": "Foo", "categories": ["network"]}\n'
@@ -293,3 +292,100 @@ class MainTests(BrandsFixtureTestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RegressionTests(BrandsFixtureTestCase):
+    """Cases that slipped through the original suite and hid real defects."""
+
+    def test_id_with_trailing_newline_is_caught(self) -> None:
+        # `$` also matches before a trailing newline, so a plain .match() let
+        # "foo\n" pass as a slug — and count as an id distinct from "foo".
+        content = '{"id": "foo\\n", "name": "Foo", "categories": ["network"]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "not a valid slug")
+
+    def test_parent_with_trailing_newline_is_caught(self) -> None:
+        content = (
+            '{"id": "a", "name": "A", "categories": ["network"], "parent": "b\\n"}\n'
+            '{"id": "b", "name": "B", "categories": ["network"]}\n'
+        )
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "not a valid slug")
+
+    def test_duplicate_id_differing_only_by_newline_is_caught(self) -> None:
+        content = (
+            '{"id": "foo", "name": "Foo", "categories": ["network"]}\n'
+            '{"id": "foo\\n", "name": "Goo", "categories": ["network"]}\n'
+        )
+        self.assertTrue(vb.validate(self.write(content)))
+
+    def test_categories_with_nested_list_does_not_crash(self) -> None:
+        # set() on an unhashable element used to raise instead of reporting.
+        content = '{"id": "a", "name": "A", "categories": [["network"]]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "only strings")
+
+    def test_categories_with_mixed_types_does_not_crash(self) -> None:
+        # sorted() across int and str used to raise a TypeError.
+        content = '{"id": "a", "name": "A", "categories": ["network", 1]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "only strings")
+
+    def test_categories_as_json_object_is_reported_as_not_an_array(self) -> None:
+        # _JsonObject subclasses list, so isinstance(x, list) alone was true.
+        content = '{"id": "a", "name": "A", "categories": {"network": 1}}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "must be an array")
+
+    def test_name_with_control_character_is_caught(self) -> None:
+        content = '{"id": "a", "name": "Fo\\u0000o", "categories": ["network"]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "control characters")
+
+    def test_name_with_tab_is_caught(self) -> None:
+        content = '{"id": "a", "name": "Fo\\to", "categories": ["network"]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "control characters")
+
+    def test_name_must_be_a_string(self) -> None:
+        content = '{"id": "a", "name": 42, "categories": ["network"]}\n'
+        errors = vb.validate(self.write(content))
+        self.assert_error_mentioning(errors, "'name' must be a string")
+
+    def test_cycle_is_reported_by_its_members_not_by_nodes_pointing_into_it(self) -> None:
+        # "a" leads into the b<->c cycle but is not part of it.
+        content = (
+            '{"id": "a", "name": "A", "categories": ["network"], "parent": "b"}\n'
+            '{"id": "b", "name": "B", "categories": ["network"], "parent": "c"}\n'
+            '{"id": "c", "name": "C", "categories": ["network"], "parent": "b"}\n'
+        )
+        errors = vb.validate(self.write(content))
+        cycles = [e for e in errors if "cycle" in e]
+        self.assertEqual(len(cycles), 1, f"expected exactly one cycle error, got {cycles}")
+        self.assertNotIn("a", cycles[0].split(":")[1].split(" -> "))
+
+    def test_multi_level_parent_chain_is_valid(self) -> None:
+        # netbotz -> apc -> schneider-electric is a real chain in the dataset.
+        content = (
+            '{"id": "apc", "name": "APC", "categories": ["infrastructure_ups"], "parent": "schneider-electric"}\n'
+            '{"id": "netbotz", "name": "NetBotz", "categories": ["infrastructure_ups"], "parent": "apc"}\n'
+            '{"id": "schneider-electric", "name": "Schneider Electric", "categories": ["infrastructure_ups"]}\n'
+        )
+        self.assertEqual(vb.validate(self.write(content)), [])
+
+    def test_non_utf8_file_produces_error_not_crash(self) -> None:
+        path = Path(self._tmpdir.name) / "bad.jsonl"
+        path.write_bytes(b'{"id": "a", "name": "\xff\xfe", "categories": ["network"]}\n')
+        errors = vb.validate(path)
+        self.assert_error_mentioning(errors, "UTF-8")
+
+    def test_directory_path_produces_error_not_crash(self) -> None:
+        errors = vb.validate(Path(self._tmpdir.name))
+        self.assertTrue(errors, "expected an error for a directory path")
+
+
+class ShippedDatasetTests(unittest.TestCase):
+    """The file this repo actually ships must validate."""
+
+    def test_shipped_dataset_is_valid(self) -> None:
+        self.assertEqual(vb.validate(vb.DEFAULT_BRANDS_FILE), [])

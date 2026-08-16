@@ -93,7 +93,7 @@
 {"id": "arista-networks", "name": "Arista Networks", "categories": ["network"]}
 {"id": "aros", "name": "AROS", "categories": ["infrastructure_ups"]}
 {"id": "array-networks", "name": "Array Networks", "categories": ["network"]}
-{"id": "arris", "name": "Arris", "categories": ["network"]}
+{"id": "arris", "name": "Arris", "categories": ["network"], "parent": "commscope"}
 {"id": "art", "name": "ART", "categories": ["audio_proav"]}
 {"id": "artistic-licence", "name": "Artistic Licence", "categories": ["audio_proav"]}
 {"id": "aruba", "name": "Aruba", "categories": ["network"], "parent": "hpe"}
@@ -856,7 +856,7 @@
 {"id": "pluribus-networks", "name": "Pluribus Networks", "categories": ["network"]}
 {"id": "polargy", "name": "Polargy", "categories": ["infrastructure_ups"]}
 {"id": "poly", "name": "Poly", "categories": ["audio_proav"]}
-{"id": "polycom", "name": "Polycom", "categories": ["audio_proav"]}
+{"id": "polycom", "name": "Polycom", "categories": ["audio_proav"], "parent": "poly"}
 {"id": "polygon-spe", "name": "Polygon SPE", "categories": ["network"]}
 {"id": "portwell", "name": "Portwell", "categories": ["network", "servers"]}
 {"id": "positron", "name": "Positron", "categories": ["network"]}
@@ -864,7 +864,7 @@
 {"id": "powersoft", "name": "Powersoft", "categories": ["audio_proav"]}
 {"id": "powervar", "name": "PowerVar", "categories": ["infrastructure_ups"]}
 {"id": "powerwalker", "name": "PowerWalker", "categories": ["infrastructure_ups"]}
-{"id": "powerware", "name": "Powerware", "categories": ["infrastructure_ups"]}
+{"id": "powerware", "name": "Powerware", "categories": ["infrastructure_ups"], "parent": "eaton"}
 {"id": "presonus", "name": "PreSonus", "categories": ["audio_proav"]}
 {"id": "primeline-solutions", "name": "primeLine Solutions", "categories": ["servers"]}
 {"id": "prism-sound", "name": "Prism Sound", "categories": ["audio_proav"]}
@@ -947,7 +947,7 @@
 {"id": "ross-video", "name": "Ross Video", "categories": ["audio_proav"]}
 {"id": "rts", "name": "RTS", "categories": ["audio_proav"]}
 {"id": "rubrik", "name": "Rubrik", "categories": ["servers"]}
-{"id": "ruckus", "name": "Ruckus", "categories": ["network"]}
+{"id": "ruckus", "name": "Ruckus", "categories": ["network"], "parent": "commscope"}
 {"id": "ruggedcom", "name": "RuggedCom", "categories": ["network"]}
 {"id": "ruijie", "name": "Ruijie", "categories": ["network"]}
 {"id": "rupert-neve-designs", "name": "Rupert Neve Designs", "categories": ["audio_proav"]}
@@ -1037,7 +1037,7 @@
 {"id": "starent-networks", "name": "Starent Networks", "categories": ["network"]}
 {"id": "starline", "name": "Starline", "categories": ["infrastructure_ups"]}
 {"id": "startech-com", "name": "StarTech.com", "categories": ["infrastructure_ups", "network"]}
-{"id": "steinberg", "name": "Steinberg", "categories": ["audio_proav"]}
+{"id": "steinberg", "name": "Steinberg", "categories": ["audio_proav"], "parent": "yamaha"}
 {"id": "stewart-audio", "name": "Stewart Audio", "categories": ["audio_proav"]}
 {"id": "stl", "name": "STL", "categories": ["network"]}
 {"id": "storagetek", "name": "StorageTek", "categories": ["servers"]}

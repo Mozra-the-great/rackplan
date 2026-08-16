@@ -14,7 +14,7 @@ should not be any — keep the validator and its tests on the standard library.
 ```
 data/brands/brands.jsonl        1243 brands that make 19-inch rack hardware
 scripts/validate_brands.py      schema + integrity validation
-tests/test_validate_brands.py   35 unittest cases for the validator
+tests/test_validate_brands.py   49 unittest cases for the validator
 ```
 
 The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) and
@@ -25,6 +25,8 @@ The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) 
 python3 scripts/validate_brands.py      # validate the dataset (exit 0 = clean)
 python3 -m unittest discover -s tests   # test the validator itself
 ```
+
+Both run on every push and pull request via `.github/workflows/validate.yml`.
 
 ## Data model — `data/brands/brands.jsonl`
 
@@ -40,13 +42,14 @@ One JSON object per line, sorted alphabetically by `name`.
 | `id` | Globally unique slug, `^[a-z0-9]+(-[a-z0-9]+)*$`, ASCII only. `FS.com` → `fs-com`, `Rohde & Schwarz` → `rohde-schwarz` |
 | `name` | As printed on the rack bezel, not the legal entity. `HPE`, not `Hewlett Packard Enterprise Company`. Brand capitalization preserved verbatim (`dbx`, `MikroTik`, `NETGEAR`) |
 | `categories` | Non-empty, sorted, deduplicated. Keys: `network` · `audio_proav` · `infrastructure_ups` · `servers`. A brand may hold several |
-| `parent` | Optional. `id` of the umbrella brand, set only when that umbrella is itself a real rack badge. Pure holdings (Harman, Music Tribe) are not in the dataset at all, so their brands are correctly parentless |
+| `parent` | Optional. `id` of the umbrella brand, set only when that umbrella is itself a real rack badge **and** the brand was marketed under it. Pure holdings (Harman, Music Tribe) are not in the dataset at all. Renamed entities (Emerson Network Power), joint ventures (Fujitsu Siemens Computers) and retired acquisitions (Compaq) stay parentless |
 
 Field order is fixed: `id`, `name`, `categories`, `parent`. Omit `parent` rather than
 writing `null`.
 
-Sorting is by casefolded, ASCII-normalized `name` — deterministic, so a regenerated file
-produces no phantom diffs. The validator enforces this; do not re-sort by hand.
+Sorting is by casefolded, ASCII-normalized `name`, `id` as tie-breaker — deterministic, so
+a regenerated file produces no phantom diffs. The validator enforces this; do not re-sort
+by hand.
 
 ## Notes
 - No environment variables, no secrets.
