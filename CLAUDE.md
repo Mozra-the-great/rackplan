@@ -24,9 +24,20 @@ The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) 
 ```sh
 python3 scripts/validate_brands.py      # validate the dataset (exit 0 = clean)
 python3 -m unittest discover -s tests   # test the validator itself
+ruff check scripts tests                # lint (CI-only tool, `pip install ruff==0.16.9`)
 ```
 
-Both run on every push and pull request via `.github/workflows/validate.yml`.
+All three run on every push and pull request in the `validate` job
+(`.github/workflows/validate.yml`).
+
+## CI (`.github/workflows/`)
+- `validate.yml`: job `validate` (ruff, validator, unittest); stable name, no path filter.
+- `workflow-lint.yml`: actionlint + zizmor. `secret-scan.yml`: gitleaks on PRs.
+- No Claude workflows while the repo is dormant (umbrella decision D3): the old
+  `claude-code-review.yml` failed on every PR without the secret and was removed together
+  with `claude.yml`. Restore them from `Mozra-the-great/repo-template-public` once the repo
+  is active and `CLAUDE_CODE_OAUTH_TOKEN` is set.
+- Actions are pinned by commit SHA; Dependabot (github-actions, 7-day cooldown) keeps them fresh.
 
 ## Data model — `data/brands/brands.jsonl`
 
