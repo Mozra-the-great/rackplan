@@ -1,22 +1,48 @@
 name: validate
 
+# The job id `validate` is the stable name of the required status check. There is
+# deliberately NO workflow-level `paths:` filter (convention C1): a required check
+# whose workflow does not start is reported as pending forever, not as skipped.
+#
+# Public repo => GitHub-hosted `ubuntu-latest` (free).
+
 on:
   push:
     branches: [main]
   pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.11"
 
-      # No dependency install step on purpose — the validator and its tests are
-      # standard library only, and should stay that way.
+      # The validator and its tests are standard library only and should stay that
+      # way. ruff is a CI-only lint tool, not a dependency of the code; its version
+      # is pinned here and bumped by hand (Dependabot cannot see an inline pin).
+      - name: Lint (ruff)
+        run: |
+          python -m pip install "ruff==0.16.9"
+          ruff check scripts tests
+
       - name: Validate brand dataset
         run: python3 scripts/validate_brands.py
 
