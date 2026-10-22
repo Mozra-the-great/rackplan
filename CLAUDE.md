@@ -38,6 +38,7 @@ All three run on every push and pull request in the `validate` job
   with `claude.yml`. Restore them from `Mozra-the-great/repo-template-public` once the repo
   is active and `CLAUDE_CODE_OAUTH_TOKEN` is set.
 - Actions are pinned by commit SHA; Dependabot (github-actions, 7-day cooldown) keeps them fresh.
+- CodeQL runs as GitHub default setup (python and actions, default suite, not a workflow file); the `CodeQL` status check is required by the ruleset.
 
 ## Data model — `data/brands/brands.jsonl`
 
