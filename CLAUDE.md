@@ -15,6 +15,7 @@ should not be any — keep the validator and its tests on the standard library.
 data/brands/brands.jsonl        1243 brands that make 19-inch rack hardware
 scripts/validate_brands.py      schema + integrity validation
 tests/test_validate_brands.py   49 unittest cases for the validator
+scripts/sync_labels.py          label sync (.github/labels.json), tests in tests/test_sync_labels.py
 ```
 
 The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) and
@@ -32,6 +33,7 @@ All three run on every push and pull request in the `validate` job
 
 ## CI (`.github/workflows/`)
 - `validate.yml`: job `validate` (ruff, validator, unittest); stable name, no path filter.
+- `labels.yml`: manual only; syncs `.github/labels.json` (area/*, cat/*, spike, ...) via `scripts/sync_labels.py`, additive, never deletes labels.
 - `workflow-lint.yml`: actionlint + zizmor. `secret-scan.yml`: gitleaks on PRs.
 - No Claude workflows while the repo is dormant (umbrella decision D3): the old
   `claude-code-review.yml` failed on every PR without the secret and was removed together

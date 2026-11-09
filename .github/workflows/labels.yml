@@ -1,0 +1,39 @@
+name: Labels
+
+# Manual only: syncs .github/labels.json to the repository labels. Additive, never
+# deletes a label. Run it after changing the file: Actions -> Labels -> Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only print the changes"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+      DRY_RUN: ${{ inputs.dry_run }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Sync labels
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 scripts/sync_labels.py --dry-run
+          else
+            python3 scripts/sync_labels.py
+          fi
