@@ -1,0 +1,22 @@
+{
+  "_comment": "Label taxonomy as code. Source of truth: this file. scripts/sync_labels.py creates missing labels and updates color/description of existing ones; it never deletes a label and never touches assignments. Run it with the manual 'Labels' workflow.",
+  "labels": [
+    {"name": "enhancement", "color": "a2eeef", "description": "New feature, data addition or improvement"},
+    {"name": "bug", "color": "d73a4a", "description": "Something is broken or behaves wrong"},
+    {"name": "documentation", "color": "0075ca", "description": "Documentation only (README, CLAUDE.md, docs/)"},
+    {"name": "dependencies", "color": "0366d6", "description": "Pull requests that update a dependency file"},
+    {"name": "spike", "color": "d4c5f9", "description": "Time-boxed investigation that ends in a decision"},
+
+    {"name": "area/app", "color": "1d76db", "description": "Tauri app: Rust backend and frontend logic"},
+    {"name": "area/data", "color": "0e8a16", "description": "Datasets, schemas and the validators in scripts/"},
+    {"name": "area/ui", "color": "f9a8d4", "description": "Layout, interaction and visual design"},
+    {"name": "area/ops", "color": "5319e7", "description": "CI, packaging, releases and repository setup"},
+    {"name": "area/security", "color": "b60205", "description": "Hardening, threat model, reviews"},
+    {"name": "area/docs", "color": "0075ca", "description": "README, CONTRIBUTING, policies, ADRs"},
+
+    {"name": "cat/network", "color": "0b7285", "description": "Brand category: networking and telecommunications"},
+    {"name": "cat/audio_proav", "color": "e99695", "description": "Brand category: pro audio, studio, live sound and pro AV"},
+    {"name": "cat/infrastructure_ups", "color": "bfd4f2", "description": "Brand category: rack infrastructure, power, UPS, cooling"},
+    {"name": "cat/servers", "color": "5e5e5e", "description": "Brand category: servers, mainboards, blade systems, rack storage"}
+  ]
+}
