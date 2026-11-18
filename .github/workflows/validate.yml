@@ -46,5 +46,8 @@ jobs:
       - name: Validate brand dataset
         run: python3 scripts/validate_brands.py
 
+      - name: Validate device dataset
+        run: python3 scripts/validate_devices.py
+
       - name: Test the validator
         run: python3 -m unittest discover -s tests -v

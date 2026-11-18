@@ -7,7 +7,8 @@ Targets Windows and Linux, built with [Tauri](https://tauri.app/) (Rust backend,
 web frontend).
 
 > **Status:** early. The application is not scaffolded yet. What exists today is the
-> brand dataset that the device catalogue will be built on.
+> brand dataset that the device catalogue will be built on, plus the device schema
+> and its validator (`data/devices/`).
 
 ## Data
 
@@ -78,18 +79,68 @@ themselves a validation error — but a generator has to pick something determin
 **Field order** is fixed (`id`, `name`, `categories`, `parent`), and `parent` is omitted
 entirely when absent rather than written as `null`.
 
+### `data/devices/<brand-id>.jsonl`
+
+One file per brand, named after the brand `id` (`zyxel.jsonl` for brand `zyxel`). One
+JSON object per line, one rack-mountable device per line, sorted alphabetically by
+`model`. Empty while the catalogue is being filled in.
+
+```json
+{
+  "id": "zyxel-gs1900-24e",
+  "brand": "zyxel",
+  "model": "GS1900-24E",
+  "category": "network",
+  "height_u": 1,
+  "width": "full",
+  "depth_mm": 300,
+  "weight_kg": 2.36,
+  "power_w": 10.5,
+  "mounting": "rack-ears",
+  "source": "https://example.com/datasheet.pdf",
+  "ports": ["24x RJ45 1GbE", "2x SFP"]
+}
+```
+
+| Field | Required | Description |
+|---|---|---|
+| `id` | yes | Globally unique slug across all device files, matching `^[a-z0-9]+(-[a-z0-9]+)*$`. Convention: `<brand-id>-<model-in-lowercase>` |
+| `brand` | yes | `id` of an existing brand in `brands.jsonl`; must match the filename |
+| `model` | yes | Model designation as printed on the device |
+| `category` | yes | One of the four category keys |
+| `height_u` | yes | Rack height in U, integer ≥ 1 — `0` only with `mounting: "0U"` |
+| `width` | yes | `full` · `half` · `third` · `other` |
+| `depth_mm` | no | Chassis depth in mm |
+| `weight_kg` | no | Weight in kg |
+| `power_w` | no | Typical/max power draw in W, as per the datasheet |
+| `mounting` | yes | `rack-ears` · `shelf` · `rail` · `0U` |
+| `source` | yes | URL of the manufacturer datasheet or product page the values were taken from |
+| `ports` | no | Array of short strings, e.g. `["24x RJ45 1GbE", "2x SFP+"]` |
+
+**Measured values are never guessed.** Without a published figure, the field is
+omitted — never `0`, never `null`, never an estimate. This is the rule behind
+"required but absent" for `depth_mm`, `weight_kg` and `power_w`.
+
+**Per-brand provenance.** Every record must point at its source. A device without a
+`source` cannot be verified and therefore cannot be merged.
+
 ## Validation
 
 ```sh
 python3 scripts/validate_brands.py              # or pass a path
-python3 -m unittest discover -s tests           # 49 tests for the validator itself
+python3 scripts/validate_devices.py             # validates all of data/devices/
+python3 -m unittest discover -s tests           # 49 + 52 tests for the validators
 ```
 
-Both run on every push and pull request (`.github/workflows/validate.yml`).
+All run on every push and pull request (`.github/workflows/validate.yml`).
 
-No dependencies, Python 3.9+. Checks JSON syntax per line, `id` uniqueness and slug
-format, duplicate names, category keys, `parent` resolution and cycles, field order, sort
-order, and rejects unknown fields. Exit code 0 means clean.
+No dependencies, Python 3.9+. The brand validator checks JSON syntax per line, `id`
+uniqueness and slug format, duplicate names, category keys, `parent` resolution and
+cycles, field order, sort order, and rejects unknown fields. The device validator
+additionally enforces the per-brand file layout, enum keys, positive measurements,
+`height_u`/`mounting` consistency, http(s) `source` URLs, and cross-file checks:
+every `brand` must exist in `brands.jsonl`, and device `id`s must be unique across all
+of `data/devices/`. Exit code 0 means clean.
 
 ## License
 
