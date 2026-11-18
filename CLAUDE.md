@@ -13,8 +13,11 @@ should not be any — keep the validator and its tests on the standard library.
 ## Structure
 ```
 data/brands/brands.jsonl        1243 brands that make 19-inch rack hardware
-scripts/validate_brands.py      schema + integrity validation
-tests/test_validate_brands.py   49 unittest cases for the validator
+data/devices/<brand-id>.jsonl   rack devices per brand (empty while being filled in)
+scripts/validate_brands.py      brand schema + integrity validation
+scripts/validate_devices.py     device schema + integrity validation
+tests/test_validate_brands.py   49 unittest cases for the brand validator
+tests/test_validate_devices.py  52 unittest cases for the device validator
 ```
 
 The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) and
@@ -22,8 +25,9 @@ The Tauri app is not scaffolded yet. When it is, it goes into `src/` (frontend) 
 
 ## Commands
 ```sh
-python3 scripts/validate_brands.py      # validate the dataset (exit 0 = clean)
-python3 -m unittest discover -s tests   # test the validator itself
+python3 scripts/validate_brands.py      # validate the brand dataset (exit 0 = clean)
+python3 scripts/validate_devices.py     # validate all of data/devices/ (no-op while empty)
+python3 -m unittest discover -s tests   # test the validators themselves
 ruff check scripts tests                # lint (CI-only tool, `pip install ruff==0.16.9`)
 ```
 
@@ -68,6 +72,37 @@ by hand.
 - Run the validator before committing any dataset edit. It catches duplicate ids and
   names, bad slugs, unknown categories, dangling or cyclic `parent` references, wrong
   field order and broken sort order.
+
+---
+
+## Data model — `data/devices/<brand-id>.jsonl`
+
+One JSON object per line, one file per brand (`data/devices/zyxel.jsonl` for brand
+`zyxel`), sorted alphabetically by `model` (same casefolded, ASCII-normalized key as
+brands, `id` as tie-breaker).
+
+Field order is fixed: `id`, `brand`, `model`, `category`, `height_u`, `width`,
+`depth_mm`, `weight_kg`, `power_w`, `mounting`, `source`, `ports`. Absent optional
+fields are omitted rather than written as `null`.
+
+| Field | Required | Rule |
+|---|---|---|
+| `id` | yes | Slug `^[a-z0-9]+(-[a-z0-9]+)*$`, unique across **all** device files. Convention: `<brand-id>-<model-in-lowercase>` |
+| `brand` | yes | Must match the filename stem and resolve to a brand `id` in `brands.jsonl` |
+| `model` | yes | Model designation as printed on the device |
+| `category` | yes | One of the category keys of the brands model |
+| `height_u` | yes | Integer ≥ 1; `0` only together with `mounting: "0U"` |
+| `width` | yes | `full` · `half` · `third` · `other` |
+| `depth_mm` | no | Positive number, mm |
+| `weight_kg` | no | Positive number |
+| `power_w` | no | Positive number, W, as per the datasheet |
+| `mounting` | yes | `rack-ears` · `shelf` · `rail` · `0U` |
+| `source` | yes | http(s) URL of the datasheet or product page |
+| `ports` | no | Non-empty array of distinct, trimmed, non-empty strings |
+
+Measured values are never guessed: without a published figure the field is omitted —
+never `0`, never an estimate. Measured fields may only be filled from the referenced
+`source`.
 
 ---
 
