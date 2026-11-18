@@ -91,6 +91,12 @@ No dependencies, Python 3.9+. Checks JSON syntax per line, `id` uniqueness and s
 format, duplicate names, category keys, `parent` resolution and cycles, field order, sort
 order, and rejects unknown fields. Exit code 0 means clean.
 
+## Data licensing and provenance
+
+The device catalogue stores factual specifications only, each record citing its
+manufacturer source. What may be stored, how values are transcribed, and how errors and
+takedown requests are handled: [`docs/DATA-POLICY.md`](docs/DATA-POLICY.md).
+
 ## License
 
 GNU General Public License v3.0 — see [LICENSE](LICENSE).

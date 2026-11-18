@@ -18,6 +18,13 @@ change:
 
 Use the issue templates under `.github/ISSUE_TEMPLATE/`.
 
+## Contributing device data
+
+Device records store factual specifications only, each with a `source` URL. Read the
+[Data policy](docs/DATA-POLICY.md) before contributing, the schema documentation in
+[`README.md`](README.md) (Data) for the record format, and validate with
+`python3 scripts/validate_devices.py` before opening the PR.
+
 ## Security issues
 
 Do not open a public issue — see [`SECURITY.md`](SECURITY.md).
